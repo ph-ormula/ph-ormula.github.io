@@ -4,3 +4,11 @@ description: Website for Shanghai Pinghe School Math Club
 url: "https://ph-ormula.github.io"
 header_pages:
   - index.md
+exclude:
+  - README.md
+  - _site/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+  - .bundle/
+  - Gemfile.lock

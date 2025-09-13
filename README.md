@@ -1,10 +1,12 @@
 # PH-ormula.github.io
 
-## 1. Quick Start
+## 1. Quick Start (for organization members)
+
+*If you have pages you want to publish, fork and do the same, then open a pull request.*
 
 ```
-# 1 · clone your fork
-git clone https://github.com/<your-user>/ph-ormula.github.io
+# 1 · clone this repository
+git clone https://github.com/ph-ormula/ph-ormula.github.io
 cd ph-ormula.github.io
 
 # 2 · install gems into .bundle/ (no sudo required)
@@ -21,7 +23,7 @@ The site recompiles automatically when you save files and is served at <http://l
 
 ## 2. Adding a New Page
 
-1. **Create a Markdown file** inside the project root.  
+1. **Create a Markdown file** inside the project root.
    Filename = slug (e.g. `my-topic.md`).
 
 2. **Front matter template**
@@ -36,7 +38,7 @@ The site recompiles automatically when you save files and is served at <http://l
 
 3. **Write content** below the front matter in regular Markdown.
 
-4. **Decide whether it appears in the top-right navigation**  
+4. **Decide whether it appears in the top-right navigation**
    - Header links are listed manually in `_config.yml → header_pages:`.
    - To **show** the page, add its filename there.
    - To **hide** the page, do nothing; the page is still reachable via its permalink.
@@ -51,12 +53,16 @@ The site recompiles automatically when you save files and is served at <http://l
 
 ---
 
-## 4. Working Branches & Pull Requests
+## 4. Working Branches & Deployment
 
-1. Create a branch: `git checkout -b my-feature`
-2. Commit logically: `git add file.md; git commit -m "Add My Topic page"`
-3. Push and open a PR against `main`.
-4. CI (GitHub Pages) builds the site automatically; verify the preview URL shown by GitHub.
+1. **Work on feature branches**: `git checkout -b my-feature`
+2. **Test locally**: Always run `bundle exec jekyll serve` and verify your changes work.
+3. **Commit logically**: `git add file.md; git commit -am "Add My Topic page"`
+4. **Push your branch**: `git push origin my-feature`
+5. **Merge when ready**: `git checkout main; git merge my-feature; git push origin main`
+6. **Deploy automatically**: GitHub Pages builds and deploys within ~10 minutes after pushing to `main`.
+
+**Note**: You can also work directly on `main` for small changes, but use branches for substantial additions to avoid breaking the live site.
 
 ---
 
@@ -72,8 +78,8 @@ The site recompiles automatically when you save files and is served at <http://l
 
 ## 6. Housekeeping Rules
 
-* `_site/`, `.bundle/`, `Gemfile.lock`, caches, etc. are already in `.gitignore`; **do not commit them**.  
-* `README.md` is excluded from the published site via `_config.yml → exclude:`.  
+* `_site/`, `.bundle/`, `Gemfile.lock`, caches, etc. are already in `.gitignore`; **do not commit them**.
+* `README.md` is excluded from the published site via `_config.yml → exclude:`.
 * Keep line length ≤ 100 chars so diffs stay readable.
 
 Happy writing!
