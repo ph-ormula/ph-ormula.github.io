@@ -1,7 +1,7 @@
 ---
 layout: default
 title: IB Math Digital Textbooks Download
-published: false
+permalink: /textbooks-download/
 ---
 
 # IB Math Digital Textbooks Download
