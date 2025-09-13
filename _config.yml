@@ -13,3 +13,5 @@ exclude:
   - .jekyll-metadata
   - .bundle/
   - Gemfile.lock
+kramdown:
+  math_engine: mathjax
