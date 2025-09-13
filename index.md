@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PH-ormula
+title: Home
 ---
 
 # PH-ormula
