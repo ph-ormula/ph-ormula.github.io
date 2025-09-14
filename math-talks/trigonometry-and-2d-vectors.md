@@ -99,7 +99,7 @@ Consider this problem:
 - Algebraically, the same expression equals $\cos\alpha\cos\beta+\sin\alpha\sin\beta$
 - For the sum-angle formula, substitute $\beta$ for $-\gamma$, then $$\vec{b}=\begin{pmatrix}\cos\gamma\\-\sin\gamma\end{pmatrix}$$, and $\cos(\alpha-\gamma)=\vec{a}\cdot\vec{b}=\cos\alpha\cos\gamma-\sin\alpha\sin\gamma$
 
-## Vectors Are More Useful Than You Think: A Purely Algebraic Proof of Pftolemy's Theorem
+## Vectors Are More Useful Than You Think: A Purely Algebraic Proof of Ptolemy's Theorem
 
 ![](https://mathworld.wolfram.com/images/eps-svg/PtolemysTheorem_1000.svg){: width="60%"}
 
