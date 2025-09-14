@@ -2,7 +2,7 @@
 
 ## 1. Quick Start (for organization members)
 
-*If you have pages you want to publish, fork and do the same, then open a pull request.*
+*If you are not a club core member but have pages you want to publish, fork and do the same, then open a pull request.*
 
 ```
 # 1 · clone this repository
@@ -80,6 +80,5 @@ The site recompiles automatically when you save files and is served at <http://l
 
 * `_site/`, `.bundle/`, `Gemfile.lock`, caches, etc. are already in `.gitignore`; **do not commit them**.
 * `README.md` is excluded from the published site via `_config.yml → exclude:`.
-* Keep line length ≤ 100 chars so diffs stay readable.
 
 Happy writing!
