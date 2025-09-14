@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Sum-Angle Formula from Vectors: Intermediate Trigonometry and 2-Dimensional Vectors"
+title: Trigonometry and Geometry Through 2-Dimensional Vectors
 permalink: /math-talks/trigonometry-and-2d-vectors/
 ---
 
-# Sum-Angle Formula from Vectors: Intermediate Trigonometry and 2-Dimensional Vectors
+# Trigonometry and Geometry Through 2-Dimensional Vectors
 
 ## Basic Trigonometry: Overview
 
