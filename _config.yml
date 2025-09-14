@@ -5,6 +5,7 @@ url: "https://ph-ormula.github.io"
 header_pages:
   - index.md
   - math-talks.md
+  - phlogicians.md
 exclude:
   - README.md
   - _site/
