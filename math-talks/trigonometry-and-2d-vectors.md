@@ -8,7 +8,7 @@ permalink: /math-talks/2d-vectors-and-geometry/
 
 ## Putting 2-Dimensional Vectors in the Coordinate Plane
 
-### Review of Vectors
+### Review of vectors
 
 - Addition:
 	- Associative: $(\vec a+\vec b)+\vec c=\vec a+(\vec b+\vec c)$
@@ -25,7 +25,7 @@ permalink: /math-talks/2d-vectors-and-geometry/
 - How to find a vector rotated/flipped/sheered/etc.?
 - To answer these, we need a way to describe vectors using numbers
 
-### How to Describe Vectors in the Coordinate Plane?
+### How to describe vectors in the coordinate plane?
 
 - Vector starting on origin $(0, 0)$ and ending on $(a,b)$: denote as vector $$\begin{pmatrix}a\\b\end{pmatrix}$$
 - Represents $a$ unit to the right and $b$ unit upwards
@@ -61,32 +61,21 @@ Problem restated as vectors: **what vector does $$\begin{pmatrix}3\\4\end{pmatri
 - Vector $$\begin{pmatrix}x\\y\end{pmatrix}$$ transformed by the matrix above is denoted as the **matrix-vector multiplication** $$\begin{pmatrix}a & c\\b & d\end{pmatrix}\begin{pmatrix}x\\y\end{pmatrix}=\begin{pmatrix}ax+cy\\bx+dy\end{pmatrix}$$
 	- \*2D rotation matrix: $$\begin{pmatrix}\cos\theta & \sin\theta\\-\sin\theta & \cos\theta\end{pmatrix}$$
 
-## Can you multiply a vector by a vector?
+## Can You Multiply a Vector by a Vector?
 
 - A number can be thought of as a 1-dimensional vector
 - Length is absolute value, direction can only be right or left
-- When you multiply a 1D vector by itself, you get its length
+- When you multiply a 1D vector by itself, you get its length squared
+- Should multiplying a 2D vector by itself also get its length squared?
+- Then $$\begin{pmatrix}a\\b\end{pmatrix}\cdot\begin{pmatrix}a\\b\end{pmatrix}=a^2+b^2$$ (Pythagorean theorem)
+- Intuitively, how about defining $$\begin{pmatrix}a\\b\end{pmatrix}\cdot\begin{pmatrix}c\\d\end{pmatrix}=ac+bd$$?
 
-## Basic Trigonometry: Overview
+### Geometric meaning of this product
 
-- Unit circle
-- Radian
-- Angle between $0$ and $2\pi$ corresponds to a point on unit circle
-- Sine: signed height of the point
-- Cosine: signed position of "shadow" of the point
+Consider this problem:
 
-## 2-Dimensional Matrices: Brief Overview
+> Points $A$ and $B$ are on the first quadrant of the coordinate plane, both with distance 1 to the origin. Point $C$ is at $(1,0)$. $\angle AOC=30^\circ$ and $\angle BOC=45^\circ$. Find $\cos\angle AOB$.
 
-## Dot Product
+### Difference-angle and sum-angle formula of cosine
 
-### Connection to matrix multiplication
-
-### Distributive law
-
-## Applications
-
-### Law of cosine
-
-### Sum/difference angle formulas for cosine
-
-### Ptolemy's theorem
+## Vectors Are More Useful Than You Think: A Purely Algebraic Proof of Ptolemy's Theorem
