@@ -7,4 +7,4 @@ title: Math Talks
 
 ## Fall 2025
 
-- [Trigonometry and Geometry Through 2-Dimensional Vectors](/math-talks/trigonometry-and-2d-vectors/)
+- [Introduction to 2-Dimensional Vectors and Matrices and Results in Geometry and Trigonometry](/math-talks/2d-vectors-and-geometry/)
