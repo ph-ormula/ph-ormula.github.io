@@ -15,3 +15,19 @@ permalink: /math-talks/trigonometry-and-2d-vectors/
 - Cosine: signed position of "shadow" of the point
 
 ## 2-Dimensional Vectors: Described Numerically
+
+## 2-Dimensional Matrices: Brief Overview
+
+## Dot Product
+
+### Connection to matrix multiplication
+
+### Distributive law
+
+## Applications
+
+### Law of cosine
+
+### Sum/difference angle formulas for cosine
+
+### Ptolemy's theorem
