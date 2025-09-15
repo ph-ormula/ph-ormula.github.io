@@ -40,6 +40,10 @@ Consider this problem:
 
 > On the 2D coordinate system with origin $O$, point $A$ lies on $(3, 4)$. The entire coordinate system gets "sheered" horizontally so that point $(0, 1)$ goes to $(1, 1)$. Find where point $A$ ends up.
 
+<video width="90%" height=auto controls>
+	<source src="/images/math-talk/linalg-geometry/sheer.mp4" type="video/mp4">
+</video>
+
 - Notice that vector $$\begin{pmatrix}3\\4\end{pmatrix}$$ represents $$3\begin{pmatrix}1\\0\end{pmatrix}+4\begin{pmatrix}0\\1\end{pmatrix}$$
 - When transformed, $$\begin{pmatrix}3\\4\end{pmatrix}$$ should still be equivalent to 3 times the transformed $$\begin{pmatrix}1\\0\end{pmatrix}$$ plus 4 times the transformed $$\begin{pmatrix}0\\1\end{pmatrix}$$
 - After rotating, $$\begin{pmatrix}1\\0\end{pmatrix}$$ stays the same, and $$\begin{pmatrix}0\\1\end{pmatrix}$$ becomes $$\begin{pmatrix}1\\1\end{pmatrix}$$
