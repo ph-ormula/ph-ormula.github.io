@@ -38,22 +38,19 @@ permalink: /math-talks/2d-vectors-and-geometry/
 
 Consider this problem:
 
-> On the 2D coordinate system with origin $O$, point $A$ lies on $(3, 4)$. Segment $AO$ is rotated counterclockwise around $O$ by $45^\circ$, and point $A$ ends up at point $B$. Find the coordinates of point $B$.
+> On the 2D coordinate system with origin $O$, point $A$ lies on $(3, 4)$. The entire coordinate system gets "sheered" horizontally so that point $(0, 1)$ goes to $(1, 1)$. Find where point $A$ ends up.
 
-Problem restated as vectors: **what vector does $$\begin{pmatrix}3\\4\end{pmatrix}$$ become when rotated by $45^\circ$ counterclockwise?**
-
-- Instead of rotating the vectors, **rotate the entire coordinate system**
 - Notice that vector $$\begin{pmatrix}3\\4\end{pmatrix}$$ represents $$3\begin{pmatrix}1\\0\end{pmatrix}+4\begin{pmatrix}0\\1\end{pmatrix}$$
 - When transformed, $$\begin{pmatrix}3\\4\end{pmatrix}$$ should still be equivalent to 3 times the transformed $$\begin{pmatrix}1\\0\end{pmatrix}$$ plus 4 times the transformed $$\begin{pmatrix}0\\1\end{pmatrix}$$
-- After rotating, $$\begin{pmatrix}1\\0\end{pmatrix}$$ becomes $$\begin{pmatrix}\frac{\sqrt2}{2}\\\frac{\sqrt2}{2}\end{pmatrix}$$ and $$\begin{pmatrix}0\\1\end{pmatrix}$$ becomes $$\begin{pmatrix}-\frac{\sqrt2}{2}\\\frac{\sqrt2}{2}\end{pmatrix}$$
-- Thus $$\begin{pmatrix}3\\4\end{pmatrix}$$ transformed is $$3\begin{pmatrix}\frac{\sqrt2}{2}\\\frac{\sqrt{2}}{2}\end{pmatrix}+4\begin{pmatrix}-\frac{\sqrt2}{2}\\\frac{\sqrt2}{2}\end{pmatrix}=\begin{pmatrix}-\frac{\sqrt2}{2}\\\frac{7\sqrt2}{2}\end{pmatrix}$$
+- After rotating, $$\begin{pmatrix}1\\0\end{pmatrix}$$ stays the same, and $$\begin{pmatrix}0\\1\end{pmatrix}$$ becomes $$\begin{pmatrix}1\\1\end{pmatrix}$$
+- Thus $$\begin{pmatrix}3\\4\end{pmatrix}$$ transformed is $$3\begin{pmatrix}1\\0\end{pmatrix}+4\begin{pmatrix}1\\1\end{pmatrix}=\begin{pmatrix}7\\4\end{pmatrix}$$
 
-### What about when vector $$\begin{pmatrix}x\\y\end{pmatrix}$$ is rotated the same way?
+### What about when vector $$\begin{pmatrix}x\\y\end{pmatrix}$$ is transformed the same way?
 
 - Vector $$\begin{pmatrix}x\\y\end{pmatrix}=x\begin{pmatrix}1\\0\end{pmatrix}+y\begin{pmatrix}0\\1\end{pmatrix}$$
-- After rotating: $$x\begin{pmatrix}\frac{\sqrt2}{2}\\\frac{\sqrt{2}}{2}\end{pmatrix}+y\begin{pmatrix}-\frac{\sqrt2}{2}\\\frac{\sqrt2}{2}\end{pmatrix}=\begin{pmatrix}x\cdot \frac{\sqrt2}{2}+y\cdot-\frac{\sqrt2}{2}\\x\cdot\frac{\sqrt2}{2}+y\cdot\frac{\sqrt2}{2}\end{pmatrix}$$
+- After rotating: $$x\begin{pmatrix}1\\0\end{pmatrix}+y\begin{pmatrix}1\\1\end{pmatrix}=\begin{pmatrix}x\cdot1+y\cdot1\\x\cdot0+y\cdot1\end{pmatrix}$$
 
-### Does this apply outside of rotations?
+### Does this apply to more complex transformations?
 
 - Coordinate system is being transformed so that $$\begin{pmatrix}1\\0\end{pmatrix}$$ goes to $$\begin{pmatrix}a\\b\end{pmatrix}$$ and $$\begin{pmatrix}0\\1\end{pmatrix}$$ goes to $$\begin{pmatrix}c\\d\end{pmatrix}$$
 - Vector $$\begin{pmatrix}x\\y\end{pmatrix}=x\begin{pmatrix}1\\0\end{pmatrix}+y\begin{pmatrix}0\\1\end{pmatrix}$$ goes to $$x\begin{pmatrix}a\\b\end{pmatrix}+y\begin{pmatrix}c\\d\end{pmatrix}=\begin{pmatrix}ax+cy\\bx+dy\end{pmatrix}$$
@@ -98,6 +95,16 @@ Consider this problem:
 - Since $\vec{a}$ and $\vec{b}$ both have length 1, geometrically, $\vec{a}\cdot\vec{b}=\cos(\alpha-\beta)$ (doesn't matter whether $\alpha$ or $\beta$ is larger since $\cos\theta=\cos(-\theta)$)
 - Algebraically, the same expression equals $\cos\alpha\cos\beta+\sin\alpha\sin\beta$
 - For the sum-angle formula, substitute $\beta$ for $-\gamma$, then $$\vec{b}=\begin{pmatrix}\cos\gamma\\-\sin\gamma\end{pmatrix}$$, and $\cos(\alpha-\gamma)=\vec{a}\cdot\vec{b}=\cos\alpha\cos\gamma-\sin\alpha\sin\gamma$
+
+### Properties of vector dot product
+
+- Commutative: $\vec{a}\cdot\vec{b}=\vec{b}\cdot\vec{a}$
+- Distributive: $$\begin{pmatrix}x\\y\end{pmatrix}\cdot(\begin{pmatrix}a\\b\end{pmatrix}+\begin{pmatrix}c\\d\end{pmatrix})=x(a+c)+y(b+d)=(xa+yb)+(xc+yd)=\begin{pmatrix}x\\y\end{pmatrix}\cdot\begin{pmatrix}a\\b\end{pmatrix}+\begin{pmatrix}x\\y\end{pmatrix}\cdot\begin{pmatrix}c\\d\end{pmatrix}$$
+
+### Law of cosine using vectors
+
+- In triangle $ABC$, $\vec{BC}=\vec{AC}-\vec{AB}$
+- $BC^2=\vec{BC}\cdot\vec{BC}=(\vec{AC}-\vec{AB})\cdot(\vec{AC}-\vec{AB})=\vec{AC}\cdot\vec{AC}+\vec{AB}\cdot\vec{AB}-2\cdot\vec{AC}\cdot\vec{AB}=AC^2+AB^2-2\cdot AC\cdot AB\cdot\cos\angle A$
 
 ## Vectors Are More Useful Than You Think: A Purely Algebraic Proof of Ptolemy's Theorem
 
