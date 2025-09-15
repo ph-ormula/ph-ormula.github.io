@@ -40,7 +40,7 @@ Consider this problem:
 
 > On the 2D coordinate system with origin $O$, point $A$ lies on $(3, 4)$. The entire coordinate system gets "sheered" horizontally so that point $(0, 1)$ goes to $(1, 1)$. Find where point $A$ ends up.
 
-<video width="90%" height=auto controls>
+<video width="100%" height=auto controls>
 	<source src="/images/math-talk/linalg-geometry/sheer.mp4" type="video/mp4">
 </video>
 
@@ -81,7 +81,7 @@ Consider this problem:
 
 - Shift the coordinate plane so that every point gets projected perpendicularly to the line $AO$ and becomes a 1D vector
 
-<video width="90%" height=auto controls>
+<video width="100%" height=auto controls>
 	<source src="/images/math-talk/linalg-geometry/2d-coords-project-to-1d.mp4" type="video/mp4">
 </video>
 
