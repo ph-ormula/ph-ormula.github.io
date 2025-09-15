@@ -117,3 +117,5 @@ Consider this problem:
 - $AB\cdot CD+AD\cdot BC=AC\cdot BD$. Can you prove this using vectors?
 - The 2 opposite angles of a cyclic quadrilateral adds up to $180^\circ$, can you describe that using vector dot product?
 - $$\frac{\vec{AB}\cdot\vec{BC}}{AB\cdot BC}+\frac{\vec{CD}\cdot\vec{DA}}{CD\cdot DA}=0$$
+
+[Manim source](/math-talks/vectors-manim-source)
