@@ -4,13 +4,13 @@ plugins:
   - jekyll-remote-theme
 minima:
   skin: auto
+  nav_pages:
+    - index.md
+    - math-talks.md
+    - phlogicians.md
 title: PH-ormula
 description: Website for Shanghai Pinghe School Math Club
 url: "https://ph-ormula.github.io"
-header_pages:
-  - index.md
-  - math-talks.md
-  - phlogicians.md
 exclude:
   - README.md
   - _site/

@@ -27,3 +27,62 @@ h1, h2, h3, h4, h5, h6 {
 pre, code {
   font-family: monospace !important;
 }
+
+// Add white background to all SVG elements
+svg {
+  background-color: #f6f5f4 !important;
+}
+
+// For SVGs used as background images
+.svg-container {
+  background-color: #f6f5f4;
+}
+
+// For external SVG URLs in img tags
+img[src$=".svg"] {
+  background-color: #f6f5f4;
+}
+
+// For SVGs in specific contexts (like social icons in Minima)
+.social-media-list svg,
+.footer-col svg {
+  background-color: #f6f5f4 !important;
+}
+
+// Override text color for dark theme only
+@media (prefers-color-scheme: dark) {
+  body,
+  .site-title,
+  .site-nav .page-link,
+  .post-title,
+  .post-content,
+  .post-meta,
+  .page-content p,
+  .page-content li,
+  .page-content h1,
+  .page-content h2,
+  .page-content h3,
+  .page-content h4,
+  .page-content h5,
+  .page-content h6 {
+    color: #f6f5f4 !important;
+  }
+}
+
+// For sites explicitly using dark skin
+[data-theme="dark"] body,
+[data-theme="dark"] .site-title,
+[data-theme="dark"] .site-nav .page-link,
+[data-theme="dark"] .post-title,
+[data-theme="dark"] .post-content,
+[data-theme="dark"] .post-meta,
+[data-theme="dark"] .page-content p,
+[data-theme="dark"] .page-content li,
+[data-theme="dark"] .page-content h1,
+[data-theme="dark"] .page-content h2,
+[data-theme="dark"] .page-content h3,
+[data-theme="dark"] .page-content h4,
+[data-theme="dark"] .page-content h5,
+[data-theme="dark"] .page-content h6 {
+  color: #f6f5f4 !important;
+}
