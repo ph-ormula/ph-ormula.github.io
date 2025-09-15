@@ -78,7 +78,7 @@ Consider this problem:
 - Shift the coordinate plane so that every point gets projected perpendicularly to the line $AO$ and becomes a 1D vector
 
 <video width="90%" height=auto controls>
-	<source src="/images/math-talk/linalg-geometry/AngleProjectionScene.mp4" type="video/mp4">
+	<source src="/images/math-talk/linalg-geometry/2d-coords-project-to-1d.mp4" type="video/mp4">
 </video>
 
 - Coordinate "grid" structure still preserved after transforming the 2D space to a 1D one, so $$\vec{OB}=\begin{pmatrix}\cos45^\circ\\\sin45^\circ\end{pmatrix}=\begin{pmatrix}\frac{\sqrt2}{2}\\\frac{\sqrt2}{2}\end{pmatrix}$$ transformed is still equal to $$\frac{\sqrt2}{2}\cdot\text{transformed }\begin{pmatrix}1\\0\end{pmatrix}+\frac{\sqrt2}{2}\cdot\text{transformed }\begin{pmatrix}0\\1\end{pmatrix}$$
@@ -111,4 +111,5 @@ Consider this problem:
 ![](https://mathworld.wolfram.com/images/eps-svg/PtolemysTheorem_1000.svg){: width="60%"}
 
 - $AB\cdot CD+AD\cdot BC=AC\cdot BD$. Can you prove this using vectors?
-- Hint: the 2 opposite angles of a cyclic quadrilateral adds up to $180^\circ$, can you describe that using vector dot product?
+- The 2 opposite angles of a cyclic quadrilateral adds up to $180^\circ$, can you describe that using vector dot product?
+- $$\frac{\vec{AB}\cdot\vec{BC}}{AB\cdot BC}+\frac{\vec{CD}\cdot\vec{DA}}{CD\cdot DA}=0$$
