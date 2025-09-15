@@ -44,3 +44,24 @@ pre, code, .highlight {
 .site-footer {
   font-family: sans-serif !important;
 }
+
+// Add white background to all SVG elements
+svg {
+  background-color: white !important;
+}
+
+// For SVGs used as background images
+.svg-container {
+  background-color: white;
+}
+
+// For external SVG URLs in img tags
+img[src$=".svg"] {
+  background-color: white;
+}
+
+// For SVGs in specific contexts (like social icons in Minima)
+.social-media-list svg,
+.footer-col svg {
+  background-color: white !important;
+}
