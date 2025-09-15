@@ -1,67 +1,29 @@
 ---
+# Main theme
 ---
 
-// Override ALL font variables to use browser defaults
-$base-font-family: sans-serif;
-$base-font-size: 16px;
-$base-font-weight: 400;
-$small-font-size: $base-font-size * 0.875;
-$base-line-height: 1.5;
 
-// Override monospace to use browser default monospace
-$monospace-font-family: monospace;
+@import
+  "minima/skins/{{ site.minima.skin | default: 'auto' }}",
+  "minima/initialize";
 
-// Import minima after setting variables
-@import "minima";
-
-// Additional overrides to ensure ALL fonts use browser defaults
-body, html {
+// Override fonts to use browser defaults
+body {
   font-family: sans-serif !important;
 }
 
-// Override headings to use browser default sans-serif
 h1, h2, h3, h4, h5, h6 {
   font-family: sans-serif !important;
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
-// Override code and pre elements to use browser default monospace
-pre, code, .highlight {
+// Optional: Override any other font specifications
+.site-title,
+.site-nav .page-link {
+  font-family: sans-serif !important;
+}
+
+// Optional: Ensure code blocks still use monospace
+pre, code {
   font-family: monospace !important;
-}
-
-// Override any remaining specific font declarations
-.site-title, .site-nav, .page-link {
-  font-family: sans-serif !important;
-}
-
-// Override post content fonts
-.post-content, .post-title, .post-meta {
-  font-family: sans-serif !important;
-}
-
-// Override footer fonts
-.site-footer {
-  font-family: sans-serif !important;
-}
-
-// Add white background to all SVG elements
-svg {
-  background-color: white !important;
-}
-
-// For SVGs used as background images
-.svg-container {
-  background-color: white;
-}
-
-// For external SVG URLs in img tags
-img[src$=".svg"] {
-  background-color: white;
-}
-
-// For SVGs in specific contexts (like social icons in Minima)
-.social-media-list svg,
-.footer-col svg {
-  background-color: white !important;
 }

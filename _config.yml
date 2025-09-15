@@ -1,4 +1,9 @@
-theme: minima
+# theme: minima
+remote_theme: jekyll/minima
+plugins: 
+  - jekyll-remote-theme
+minima:
+  skin: auto
 title: PH-ormula
 description: Website for Shanghai Pinghe School Math Club
 url: "https://ph-ormula.github.io"
