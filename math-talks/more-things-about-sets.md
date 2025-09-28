@@ -115,25 +115,25 @@ $\gamma<\frac{\gamma+m}{2}<m$
 
 Contradictory arise, so there does NOT exist any number under $m$ that is an upper  bound. Thus $x=m$ is the supremum.
 
-## Archimedean property of $\R$
+## Archimedean property of $\mathbb{R}$
 
 ### Theorem
 
-If $x\in \R,\ y\in \R$ and $x>0$, then there is a positive integer $n$ such that:
+If $x\in \mathbb{R},\ y\in \mathbb{R}$ and $x>0$, then there is a positive integer $n$ such that:
 
 $nx>y$
 
 ### Proof
 
-Hint: let $A=\{nx\mid n\in \N^+\}$ and start by assuming that the theorem was false, thus $y$  would be an upper bound, and we put $\alpha=\sup\ A$, this will eventually lead to contradictory.
+Hint: let $A=\{nx\mid n\in \mathbb{N}^+\}$ and start by assuming that the theorem was false, thus $y$  would be an upper bound, and we put $\alpha=\sup\ A$, this will eventually lead to contradictory.
 
 Since $x>0$, we have $\alpha-x<\alpha$. Since $\alpha$ is the supremum, $\alpha-x$ can't be an upper bound, thus $\alpha-x<mx$ for some positive integer $x$. However, this means $\alpha<(m+1)x$, and the right hand side is in set $A$, so $\alpha$ is not the supremum. Here's when contradiction arises.
 
-## $\mathbb{Q}$ is dense in $\R$
+## $\mathbb{Q}$ is dense in $\mathbb{R}$
 
 ### Theorem
 
-If $x\in \R$, $y\in \R$, and $x<y$ then there exists a $p\in\mathbb{Q}$ such that $x<p<y$.
+If $x\in \mathbb{R}$, $y\in \mathbb{R}$, and $x<y$ then there exists a $p\in\mathbb{Q}$ such that $x<p<y$.
 
 ### Proof
 
@@ -147,16 +147,14 @@ Thus $x<\frac mn<y$, since $m$ and $n$ are all integers, $p=\frac mn\in \mathbb{
 
 ### Corollary 1
 
-There are infinite rational numbers in any interval in $\R$.
+There are infinite rational numbers in any interval in $\mathbb{R}$.
 
 Hint: prove that the density theorem above can be applied multiple times.
 
 ### Corollary 2
 
-$\R\backslash{\mathbb{Q}}$ is dense in $\R$.
+$\mathbb{R}\backslash{\mathbb{Q}}$ is dense in $\mathbb{R}$.
 
-Hint: prove that there is always a costructable irrational number $r$ that satisfies $x<r<y$ given $a,\ b\in \R$.
+Hint: prove that there is always a costructable irrational number $r$ that satisfies $x<r<y$ given $a,\ b\in \mathbb{R}$.
 
 Hint: let $m$ be an irrational number, then $\frac mn$ with positive number $n$, is irrational. Then the inequality $x<p+\frac mn<y$ with $p$ being a rational number may become true under some specific conditions.
-
-
