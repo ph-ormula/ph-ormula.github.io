@@ -6,6 +6,7 @@ title: Resources
 # Resources
 
 - [Art Of Problem Solving](https://artofproblemsolving.com/)
+- [libqalculate CLI scientific calculator](https://github.com/Qalculate/libqalculate)
 
 ## Video Resources
 
