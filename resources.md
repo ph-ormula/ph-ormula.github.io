@@ -18,3 +18,10 @@ title: Resources
 ## Math-Related Subjects
 
 [Stanford Introduction to Logic](http://intrologic.stanford.edu/public/lessons.php)
+
+## Math Games
+
+- [4D Golf (Windows)](https://mega.nz/file/sK0W3AAC#Fzfk_UUOW5uqMSD--fPacgM-ID9cXTfA7rpjFhVAGsA)
+- [Hyperbolica (Windows)](https://mega.nz/file/wWcxSCIZ#QeCsUCYvQfUv286zdrDB0sc-BrIbEkvQruQ917l4sDA)
+
+Use Crossover to run the games on Mac OS, and use Wine or Bottles on Linux
