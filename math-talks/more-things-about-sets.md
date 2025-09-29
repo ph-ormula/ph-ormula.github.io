@@ -42,7 +42,7 @@ $A\cup B$ is the **union** of sets $A$ and $B$
 
 $A\cap B$ is the **intersection** of sets $A$ and $B$
 
-*$\mid$ stands for "such that", e.g. $A=\{x\mid x^2=2\}=\{- \sqrt 2,\ \sqrt2\}$
+*$\mid$ stands for "such that", e.g. $A=\lbrace x\mid x^2=2\rbrace=\lbrace - \sqrt 2,\ \sqrt2\rbrace$
 
 ## Ordered Sets
 
@@ -83,13 +83,13 @@ The supremum of an ordered set $S$ is denoted as $\sup S$
 
 ### Infimum
 
-an **lower bound** $\alpha$ of an ordered set $S$ satisfies for any $\beta\in S$, we have $\alpha\le\beta$
+a **lower bound** $\alpha$ of an ordered set $S$ satisfies for any $\beta\in S$, we have $\alpha\le\beta$
 
 We say $\alpha$ is the **infimum** of $S$ if:
 
-1. $\alpha$ is an lower bound
+1. $\alpha$ is a lower bound
 
-2. if $\gamma>\alpha$, then $\gamma$ isn't an lower bound
+2. if $\gamma>\alpha$, then $\gamma$ isn't a lower bound
 
 The infimum of an ordered set $S$ is denoted as $\inf S$
 
@@ -99,7 +99,7 @@ Q3: Are $\sup S$ and $\inf S$, if they exist, necessarily in $S$?
 
 A3: No.
 
-We shall show that $x=m$ is the supremum of the sets: $S=\{x\mid x<m\}$ and $T=\{x\mid x\le m\}$.
+We shall show that $x=m$ is the supremum of the sets: $S=\lbrace x\mid x<m\rbrace$ and $T=\lbrace x\mid x\le m\rbrace$.
 
 To show this, we use the definition, two things need to be satisfied:
 
@@ -125,7 +125,7 @@ $nx>y$
 
 ### Proof
 
-Hint: let $A=\{nx\mid n\in \mathbb{N}^+\}$ and start by assuming that the theorem was false, thus $y$  would be an upper bound, and we put $\alpha=\sup\ A$, this will eventually lead to contradictory.
+Hint: let $A=\lbrace nx\mid n\in \mathbb{N}^+\rbrace$ and start by assuming that the theorem was false, thus $y$  would be an upper bound, and we put $\alpha=\sup\ A$, this will eventually lead to contradictory.
 
 Since $x>0$, we have $\alpha-x<\alpha$. Since $\alpha$ is the supremum, $\alpha-x$ can't be an upper bound, thus $\alpha-x<mx$ for some positive integer $x$. However, this means $\alpha<(m+1)x$, and the right hand side is in set $A$, so $\alpha$ is not the supremum. Here's when contradiction arises.
 
