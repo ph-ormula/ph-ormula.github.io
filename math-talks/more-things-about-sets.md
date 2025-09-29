@@ -155,7 +155,8 @@ Hint: prove that the density theorem above can be applied multiple times.
 
 $\mathbb{R}\backslash{\mathbb{Q}}$ is dense in $\mathbb{R}$.
 
-Hint: prove that there is always a costructable irrational number $r$ that satisfies $x<r<y$ given $a,\ b\in \mathbb{R}$.
+Hint: prove that there is always a costructable irrational number $r$ that satisfies $x<r<y$ given $x,\ y\in \mathbb{R}$.
 
 Hint: let $m$ be an irrational number, then $\frac mn$ with positive number $n$, is irrational. Then the inequality $x<p+\frac mn<y$ with $p$ being a rational number may become true under some specific conditions.
 
+![](/easter-eggs/Jibba.png){: width="30%"}
