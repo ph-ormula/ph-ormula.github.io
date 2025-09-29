@@ -6,3 +6,5 @@ redirect: https://youtu.be/5zG6QNaVXMY
 ---
 
 Redirecting to YouTube...
+
+![](/easter-eggs/Jibba.png){: width="60%"}
