@@ -6,8 +6,9 @@
   
   if (!mainContent || !tocList) return;
 
-  // Get all headings from the main content
-  const headings = mainContent.querySelectorAll('h1, h2, h3, h4, h5, h6');
+  // Get all headings from the main content (excluding .no-toc)
+  const allHeadings = mainContent.querySelectorAll('h1, h2, h3, h4, h5, h6');
+  const headings = Array.from(allHeadings).filter(h => !h.classList.contains('no-toc'));
   
   if (headings.length === 0) {
     tocList.innerHTML = '<p style="opacity: 0.6; font-size: 0.85em;">No headings found</p>';

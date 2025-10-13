@@ -92,6 +92,20 @@ img[src$=".svg"] {
   display: flex;
   gap: 2rem;
   position: relative;
+  max-width: calc(100% - 4rem);
+}
+
+// Use more horizontal space on wider screens
+@media screen and (min-width: 1200px) {
+  .wrapper.with-toc {
+    max-width: 1400px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .wrapper.with-toc {
+    max-width: 1600px;
+  }
 }
 
 .page-toc {
