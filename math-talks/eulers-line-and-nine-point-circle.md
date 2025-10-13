@@ -135,22 +135,22 @@ $OM_{a}$ 是 $\triangle DBC$ 的中位线，因此：
 
 $$OM_{a} \parallel DC,\quad OM_{a} = \frac{1}{2}DC = \frac{1}{2}AH$$
 
-连接 $AM_{a}$（这是中线）。设 $OH$ 交 $AM_{a}$ 于点 $G\prime$。
+连接 $AM_{a}$（这是中线）。设 $OH$ 交 $AM_{a}$ 于点 $G'$。
 
-在 $\triangle AHG\prime$ 和 $\triangle M_{a}OG\prime$ 中：
+在 $\triangle AHG'$ 和 $\triangle M_{a}OG'$ 中：
 
 $$AH \parallel OM_{a},\quad\text{ 且 }\quad AH = 2 \cdot OM_{a}$$
 
-因此 $\triangle AHG\prime \sim \triangle M_{a}OG\prime$，相似比为 $2:1$。
+因此 $\triangle AHG' \sim \triangle M_{a}OG'$，相似比为 $2:1$。
 
 所以：
 
-$$AG\prime = 2 \cdot G\prime M_{a}$$
+$$AG' = 2 \cdot G' M_{a}$$
 
-这说明 $G\prime$ 是中线 $AM_{a}$ 上的一个三等分点（距顶点 $A$ 较近）。
+这说明 $G'$ 是中线 $AM_{a}$ 上的一个三等分点（距顶点 $A$ 较近）。
 
 由重心的定义，重心 $G$ 也是中线 $AM_{a}$ 上距顶点较近的三等分点，因此
-$G\prime = G$。
+$G' = G$。
 
 所以 $O,G,H$ 三点共线，且 $HG = 2 \cdot OG$。**Q.E.D.**
 
