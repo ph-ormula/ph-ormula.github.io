@@ -354,9 +354,9 @@ $$ON:NG:GH = 1:1:2$$
 设 $O$，$H$ 分别是 $\triangle ABC$ 的外心和垂心，$E$，$F$ 分别是边 $AC$，$AB$ 的中点，已知 $HF\perp MF$，$HE\perp NE$，$M$ 在 $CA$ 直线上，$N$ 在 $AB$ 直线上.
 证明：$HO\perp MN$.
 
-![](/images/math-talk/eulers-line/2.png){: width="50%"}
+![](/images/math-talk/eulers-line/2.png){: width="75%"}
 
-![](/images/math-talk/eulers-line/1.png){: width="50%"}
+![](/images/math-talk/eulers-line/1.png){: width="75%"}
 
 作 $\triangle ABC$ 的九点圆，圆心为 $OH$ 中点 $I$
 
