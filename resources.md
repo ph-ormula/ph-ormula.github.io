@@ -17,7 +17,13 @@ title: Resources
 
 ## Math-Related Subjects
 
-[Stanford Introduction to Logic](http://intrologic.stanford.edu/public/lessons.php)
+- [Stanford Introduction to Logic](http://intrologic.stanford.edu/public/lessons.php)
+
+## Tools
+
+- [Typst](https://typst.app): typesetting language similar to markdown but with the feature size of LaTeX
+- [Qalc](https://github.com/Qalculate/libqalculate): scientific calculator software
+- [Inkscape](https://inkscape.org/): draw diagrams as scalable vector graphics with no pixels
 
 ## Math Games
 
