@@ -2,6 +2,7 @@
 layout: default
 title: 欧拉线与九点圆
 permalink: /math-talks/eulers-line-and-9-point-circle/
+toc: true
 ---
 
 # 欧拉线与九点圆

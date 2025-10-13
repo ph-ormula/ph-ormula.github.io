@@ -9,3 +9,4 @@ title: Math Talks
 
 - [Introduction to 2-Dimensional Vectors and Matrices and Results in Geometry and Trigonometry](/math-talks/2d-vectors-and-geometry/)
 - [More Things about Sets](/math-talks/more-things-about-sets/)
+- [Euler's Line and Nine-Point Circle](/math-talks/eulers-line-and-9-point-circle/)

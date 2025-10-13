@@ -2,6 +2,7 @@
 layout: default
 title: Trigonometry and Geometry Through 2-Dimensional Vectors
 permalink: /math-talks/2d-vectors-and-geometry/
+toc: true
 ---
 
 # Introduction to 2-Dimensional Vectors and Matrices and Results in Geometry and Trigonometry
@@ -50,11 +51,13 @@ Consider this problem:
 - Thus $$\begin{pmatrix}3\\4\end{pmatrix}$$ transformed is $$3\begin{pmatrix}1\\0\end{pmatrix}+4\begin{pmatrix}1\\1\end{pmatrix}=\begin{pmatrix}7\\4\end{pmatrix}$$
 
 ### What about when vector $$\begin{pmatrix}x\\y\end{pmatrix}$$ is transformed the same way?
+{: .no-toc }
 
 - Vector $$\begin{pmatrix}x\\y\end{pmatrix}=x\begin{pmatrix}1\\0\end{pmatrix}+y\begin{pmatrix}0\\1\end{pmatrix}$$
 - After rotating: $$x\begin{pmatrix}1\\0\end{pmatrix}+y\begin{pmatrix}1\\1\end{pmatrix}=\begin{pmatrix}x\cdot1+y\cdot1\\x\cdot0+y\cdot1\end{pmatrix}$$
 
 ### Does this apply to more complex transformations?
+{: .no-toc }
 
 - Coordinate system is being transformed so that $$\begin{pmatrix}1\\0\end{pmatrix}$$ goes to $$\begin{pmatrix}a\\b\end{pmatrix}$$ and $$\begin{pmatrix}0\\1\end{pmatrix}$$ goes to $$\begin{pmatrix}c\\d\end{pmatrix}$$
 - Vector $$\begin{pmatrix}x\\y\end{pmatrix}=x\begin{pmatrix}1\\0\end{pmatrix}+y\begin{pmatrix}0\\1\end{pmatrix}$$ goes to $$x\begin{pmatrix}a\\b\end{pmatrix}+y\begin{pmatrix}c\\d\end{pmatrix}=\begin{pmatrix}ax+cy\\bx+dy\end{pmatrix}$$

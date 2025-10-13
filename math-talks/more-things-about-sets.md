@@ -2,6 +2,7 @@
 layout: default
 title: More Things About Sets
 permalink: /math-talks/more-things-about-sets/
+toc: true
 ---
 
 # More Things About Sets
