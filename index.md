@@ -7,7 +7,7 @@ title: Home
 
 Pinghe Math Club.
 
-[Math Talk: More Things about Sets](/math-talks/more-things-about-sets/)
+[Math Talk: Euler's Line and Nine-Point Circle](/math-talks/eulers-line-and-9-point-circle/)
 
 [2025 O-Week Innovation Challenge: Problems and Solutions](https://typst.app/project/rioBf276MxFRDK4nvXO6kk)
 
