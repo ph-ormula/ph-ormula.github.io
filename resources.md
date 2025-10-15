@@ -8,6 +8,11 @@ title: Resources
 - [Art Of Problem Solving](https://artofproblemsolving.com/)
 - [libqalculate CLI scientific calculator](https://github.com/Qalculate/libqalculate)
 
+## Competition prep
+
+- [AoPS wiki](https://artofproblemsolving.com/wiki/)
+- [AoPS mock AMC contests forum](https://artofproblemsolving.com/community/c594864_aops_mock_contests)
+
 ## Video Resources
 
 - [3Blue1Brown](https://www.youtube.com/@3blue1brown)
