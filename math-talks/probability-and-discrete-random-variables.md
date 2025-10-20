@@ -208,11 +208,15 @@ $$
 
 - ***Solution***
     1. 
-    $\sum_{m=1}^{3} P_M(m) = 1 \implies \left( \frac{2d - 1}{1 + 1} + \frac{2d - 1}{2 + 1} + \frac{2d - 1}{3 + 1} = 1 \right) \cdot 12 \\
-    12d - 6 + 8d - 4 + 6d - 3 = 12 \\
-    26d - 13 = 12 \\
-    (26d = 25) \cdot \frac{1}{26} \\
-    \boxed{d = \frac{25}{26}}$
+	$$
+	\begin{gather}
+	\sum_{m=1}^{3} P_M(m) = 1 \implies \left( \frac{2d - 1}{1 + 1} + \frac{2d - 1}{2 + 1} + \frac{2d - 1}{3 + 1} = 1 \right) \cdot 12 \\
+	12d - 6 + 8d - 4 + 6d - 3 = 12 \\
+	26d - 13 = 12 \\
+	(26d = 25) \cdot \frac{1}{26} \\
+	\boxed{d = \frac{25}{26}}
+	\end{gather}
+	$$
     2. $\ P[M = 1] = \frac{2 \cdot \frac{25}{26} - 1}{1 + 1} = \frac{\frac{25}{13} - 1}{2} = \frac{\frac{25 - 13}{13}}{2} = \frac{\frac{12}{13}}{2} = \boxed{\frac{6}{13}}$
     3. $\ P[M \geq 2] = P[M = 2] + P[M = 3] = \frac{2 \cdot \frac{25}{26} - 1}{2 + 1} + \frac{2 \cdot \frac{25}{26} - 1}{3 + 1} = \frac{\frac{12}{13}}{3} + \frac{\frac{12}{13}}{4} = \frac{4}{13} + \frac{3}{13} = \boxed{\frac{7}{13}}$
     4. $\ P[M > 2] = P[M = 3] = \boxed{\frac{3}{13}}$
