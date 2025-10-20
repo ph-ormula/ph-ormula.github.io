@@ -252,7 +252,7 @@ where the parameter $p$ is in the range $0 < p < 1.$
 $$
 P_M(m) = 
 \begin{cases} 
-\frac{2d - 1}{m + 1} & \text{for } m = 1, 2, 3, \\
+p(1-p)^{m-1} & \text{for } m = 1, 2, 3, \dots\\
 0 & \text{otherwise}.
 \end{cases}
 $$
