@@ -7,7 +7,7 @@ title: Home
 
 Pinghe Math Club.
 
-[Math Talk: Euler's Line and Nine-Point Circle](/math-talks/eulers-line-and-9-point-circle/)
+[Math Talk: Probability and Discrete Random Variables](/math-talks/probability-and-discrete-random-variables/)
 
 [2025 O-Week Innovation Challenge: Problems and Solutions](https://typst.app/project/rioBf276MxFRDK4nvXO6kk)
 
