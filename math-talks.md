@@ -11,3 +11,4 @@ title: Math Talks
 - [More Things about Sets (2025-09-29)](/math-talks/more-things-about-sets/)
 - [Euler's Line and Nine-Point Circle (2025-10-13)](/math-talks/eulers-line-and-9-point-circle/)
 - [Probability and Discrete Random Variables (2025-10-20)](/math-talks/probability-and-discrete-random-variables/)
+- [HiMCM - Common Models (2025-10-27)](/math-talks/himcm-commom-models/)
