@@ -1,11 +1,11 @@
 ---
 layout: default
 title: HiMCM - Common Models
-permalink: /math-talks/himcm-commom-models/
+permalink: /math-talks/himcm-scoring-models/
 toc: true
 ---
 
-# HiMCM: Common Models
+# HiMCM: 方案评分的三种建模
 
 ## 层次分析法（AHP）
 

@@ -7,7 +7,7 @@ title: Home
 
 Pinghe Math Club.
 
-[Math Talk: HiMCM - Common Models](/math-talks/himcm-commom-models/)
+[Math Talk: HiMCM: 方案评分的三种建模](/math-talks/himcm-scoring-models/)
 
 [2025 O-Week Innovation Challenge: Problems and Solutions](https://typst.app/project/rioBf276MxFRDK4nvXO6kk)
 
