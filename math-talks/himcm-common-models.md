@@ -47,29 +47,29 @@ $X'$。
 由题意，我们可以得到不同的指标相对于另几个的重要性比值，得出一个判定矩阵。可参考
 Saaty 1--9 比例表：
 
-       **Scale**      **Definition**           **Interpretation**
-  ------------------- ------------------------ ----------------------------------------------------------
-           1          Equal importance         Two criteria contribute equally to the objective.
-           3          Moderate importance      One criterion is slightly more important than the other.
-           5          Strong importance        One criterion is strongly more important.
-           7          Very strong importance   One criterion is very strongly more important.
-           9          Extreme importance       One criterion is absolutely more important.
-      2, 4, 6, 8      Intermediate values      Used for compromise between adjacent judgments.
-   $1/3, 1/5, \dots$  Reciprocal values        If criterion $i$ is less important than $j$.
+| Scale | Definition | Interpretation |
+| --- | --- | --- |
+| 1 | Equal importance | Two criteria contribute equally to the objective. |
+| 3 | Moderate importance | One criterion is slightly more important than the other. |
+| 5 | Strong importance | One criterion is strongly more important. |
+| 7 | Very strong importance | One criterion is very strongly more important. |
+| 9 | Extreme importance | One criterion is absolutely more important. |
+| 2, 4, 6, 8 | Intermediate values | Used for compromise between adjacent judgments. |
+| $\tfrac{1}{3}, \tfrac{1}{5}, \dots$ | Reciprocal values | If criterion $i$ is less important than $j$. |
 
   : Saaty 1--9 Fundamental Scale for AHP
 
 若题目未暗示不同指标的重要性（更经常的情况），我们需要进行主观揣测。若查表后，我们得到了重要性的比例关系，那么可汇总成表格，假设为
 
-           $C_1$   $C_2$   $C_3$
-  ------- ------- ------- -------
-   $C_1$     1      1/3     1/5
-   $C_2$     3       1      1/2
-   $C_3$     5       2       1
+|  | $C_1$ | $C_2$ | $C_3$ |
+| --- | --- | --- | --- |
+| $C_1$ | 1 | 1/3 | 1/5 |
+| $C_2$ | 3 | 1 | 1/2 |
+| $C_3$ | 5 | 2 | 1 |
 
   : Pairwise Comparison Matrix for Three Criteria
 
-等价写成矩阵， $$A =
+ 等价写成矩阵， $$A =
 \begin{bmatrix}
 1 & \tfrac{1}{3} & \tfrac{1}{5} \\
 3 & 1 & \tfrac{1}{2} \\
@@ -118,11 +118,11 @@ $\lambda$ 的**特征向量**（eigenvector）。
 $$CR=\frac{CI}{RI}, CI=\frac{\max_{\lambda}-n}{n-1}, RI=\frac{\max_{\lambda‘}-n}{n-1}$$
 注意这里的RI是定值，可以查表得到；不同阶数的方阵有各自对应的数值。一个矩阵越不一致，由CR的计算公式，CR数值越大。由此，我们引入判定标准
 
-     **$CR$ 取值范围**    **含义**
-  ----------------------- ----------------------------------
-        $CR < 0.10$       一致性良好，判断矩阵可接受。
-   $0.10 \leq CR < 0.20$  一致性一般，可根据需要进行微调。
-      $CR \geq 0.20$      一致性较差，需重新调整判断矩阵。
+| $CR$ 取值范围 | 含义 |
+| --- | --- |
+| $CR < 0.10$ | 一致性良好，判断矩阵可接受。 |
+| $0.10 \leq CR < 0.20$ | 一致性一般，可根据需要进行微调。 |
+| $CR \geq 0.20$ | 一致性较差，需重新调整判断矩阵。 |
 
   : 一致性比率 $CR$ 的判定标准
 
@@ -262,16 +262,14 @@ a_{31} & a_{32} & a_{33}
 思考：为什么我们要归一化？
 
 ### 赋权与最终选择
-
-现在可以引入赋权公式了， $$w_j=\frac{d_j}{\sum_j=1^3 d_j}.$$
 略作解释，信息效用值越大，信息熵越小，事件概率/评分的分布越不均匀，越离散。我们认为分布的离散度代表了某个指标对于方案评分的区分度。一个指标越能区分方案的优劣性，在评分中就越有权重------这是一个相当直观的结论。
 用矩阵A左乘这个向量，即可得到评分向量，比较分量大小取最大即可判定出最优方案。当然结合Topsis亦可。
 
 ## Topsis+熵权法例题
 
-## HiMCM 2020 Problem B: Funding Biodiversity Conservation-简化版本 {#himcm-2020-problem-b-funding-biodiversity-conservation-简化版本 .unnumbered}
+## HiMCM 2020 Problem B: Funding Biodiversity Conservation-简化版本
 
-### Background {#background .unnumbered}
+### Background
 
 Many plant species in Florida are endangered, yet conservation funds are
 limited. The Florida Rare Plant Conservation Endowment (FRPCE) aims to
@@ -279,7 +277,7 @@ determine how to allocate resources to protect 48 imperiled species.
 Each project includes data on *Benefit*, *Taxonomic Uniqueness*,
 *Feasibility of Success*, and annual costs over 25 years.
 
-### Tasks {#tasks .unnumbered}
+### Tasks
 
 1.  Develop a model to determine the minimum fundraising needed to
     support all projects over a 25-year period.
@@ -287,21 +285,21 @@ Each project includes data on *Benefit*, *Taxonomic Uniqueness*,
 2.  Create a model to rank the 48 projects by priority based on their
     conservation importance and cost.
 
-## HiMCM 2018 Problem A: Roller Coaster-依旧简化 {#himcm-2018-problem-a-roller-coaster-依旧简化 .unnumbered}
+## HiMCM 2018 Problem A: Roller Coaster-依旧简化
 
-### Scope {#scope .unnumbered}
+### Scope
 
 Consider only roller coasters *currently in operation*. The provided
 dataset includes coasters whose height, speed, and/or drop exceed
 worldwide averages. Family/kiddie, bobsled, and mountain-type coasters
 are excluded.
 
-### Available Data (examples) {#available-data-examples .unnumbered}
+### Available Data (examples)
 
 Numerical and descriptive specs such as speed, height, drop, ride
 duration, inversions, length, material (steel/wood), and launch type.
 
-### Tasks {#tasks-1 .unnumbered}
+### Tasks
 
 1.  Develop an **objective** quantitative algorithm (or set of
     algorithms) to produce a *descriptive* rating/ranking of coasters
@@ -311,9 +309,9 @@ duration, inversions, length, material (steel/wood), and launch type.
     Compare and discuss your results with at least two online
     rating/ranking systems.
 
-## HiMCM Problem B: City Crime and Safety-依旧依旧简化 {#himcm-problem-b-city-crime-and-safety-依旧依旧简化 .unnumbered}
+## HiMCM Problem B: City Crime and Safety-依旧依旧简化
 
-### Background {#background-1 .unnumbered}
+### Background
 
 Major cities collect vast amounts of crime data, yet simple counts do
 not accurately reflect how safe a city is. **My City** is an
@@ -323,7 +321,7 @@ million in the surrounding metropolitan area. The dataset
 including case number, date, primary and secondary crime type, location,
 arrest record, domestic indicator, and police beat.
 
-### Task {#task .unnumbered}
+### Task
 
 Using mathematical modeling, analyze the data and develop a **safety
 rating** for My City. Use this rating to provide a quantitative measure
