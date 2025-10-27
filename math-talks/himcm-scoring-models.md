@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HiMCM - Common Models
+title: "HiMCM: 方案评分的三种建模"
 permalink: /math-talks/himcm-scoring-models/
 toc: true
 ---
