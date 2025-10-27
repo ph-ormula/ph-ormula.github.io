@@ -15,11 +15,11 @@ toc: true
 
 我们可以通过一个选择考虑的不同维度（指标类型），以及不同候选选项在这些指标上的得分构建初始评分矩阵。例如，我们购买手机时考虑相机像素，电池续航，芯片强度；候选选项有苹果，华为，小米。那么可以根据数据，得到矩阵
 $$X =
-\begin{bmatrix}
+\begin{pmatrix}
 48 & 3274 & 3.78 \\
 50 & 5000 & 3.13 \\
 50 & 4880 & 3.30
-\end{bmatrix}$$
+\end{pmatrix}$$
 
 ::: definition
 **定义 1** (量纲).
@@ -70,11 +70,11 @@ Saaty 1--9 比例表：
   : Pairwise Comparison Matrix for Three Criteria
 
  等价写成矩阵， $$A =
-\begin{bmatrix}
+\begin{pmatrix}
 1 & \tfrac{1}{3} & \tfrac{1}{5} \\
 3 & 1 & \tfrac{1}{2} \\
 5 & 2 & 1
-\end{bmatrix}$$ 这就是判定矩阵。
+\end{pmatrix}$$ 这就是判定矩阵。
 
 ::: remark
 *Remark 2*.
@@ -155,22 +155,22 @@ $w_i' = \frac{w_i}{\sum_{k=1}^n w_k}, \quad i=1,2,\dots,n.$
 ### 计算得分
 
 将归一化后的评分矩阵左乘权重向量，得到评分向量------每一个分量对应一个方案的得分。过程如下：给定评分矩阵A与权重向量w，计算
-$$\begin{bmatrix}
+$$\begin{pmatrix}
 a_{11} & a_{12} & \dots & a_{1n} \\
 a_{21} & a_{22} & \dots & a_{2n} \\
 \vdots & \vdots & \ddots & \vdots \\
 a_{m1} & a_{m2} & \dots & a_{mn}
-\end{bmatrix}
-\begin{bmatrix}
+\end{pmatrix}
+\begin{pmatrix}
 w_1 \\ w_2 \\ \vdots \\ w_n
-\end{bmatrix}
+\end{pmatrix}
 =
-\begin{bmatrix}
+\begin{pmatrix}
 a_{11}w_1 + a_{12}w_2 + \dots + a_{1n}w_n \\
 a_{21}w_1 + a_{22}w_2 + \dots + a_{2n}w_n \\
 \vdots \\
 a_{m1}w_1 + a_{m2}w_2 + \dots + a_{mn}w_n
-\end{bmatrix}.$$ 经过比较，即可选择最优。
+\end{pmatrix}.$$ 经过比较，即可选择最优。
 
 ## Topsis
 
