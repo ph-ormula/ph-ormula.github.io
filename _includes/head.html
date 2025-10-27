@@ -5,6 +5,35 @@
 	{%- seo -%}
 	<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
 	{%- feed_meta -%}
+	
+	<!-- Futura Std Font -->
+	<style>
+		@font-face {
+			font-family: 'Futura Std';
+			src: url('{{ "/assets/fonts/futura-std/FuturaStd-Book.otf" | relative_url }}') format('opentype');
+			font-weight: normal;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Futura Std';
+			src: url('{{ "/assets/fonts/futura-std/FuturaStd-Bold.otf" | relative_url }}') format('opentype');
+			font-weight: bold;
+			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Futura Std';
+			src: url('{{ "/assets/fonts/futura-std/FuturaStd-BookOblique.otf" | relative_url }}') format('opentype');
+			font-weight: normal;
+			font-style: italic;
+		}
+		@font-face {
+			font-family: 'Futura Std';
+			src: url('{{ "/assets/fonts/futura-std/FuturaStd-BoldOblique.otf" | relative_url }}') format('opentype');
+			font-weight: bold;
+			font-style: italic;
+		}
+	</style>
+	
 	{%- if jekyll.environment == 'production' and site.google_analytics -%}
 		{%- include google-analytics.html -%}
 	{%- endif -%}
