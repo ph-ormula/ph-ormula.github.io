@@ -186,6 +186,12 @@ a_{31} & a_{32} & a_{33}
 \end{pmatrix},$$ 令行表示方案，列表示指标，i.e.,
 $a_{ij}$表示方案i在j指标的数值。正向化的目的是将所有的指标转化为最大型，具体操作如下
 
+|类型|方法|
+|-|-|
+|极大
+|极小型|$\tilde{x}=\max-x_i$|
+|中间型|$M=\max(\vert x_i-x_\mathrm{best}\vert)$, $\tilde{x}=1-\frac{\vert x_i-x_\mathrm{best}\vert}{M}$|
+
 显然，原先问题的优化被简化为了求解正向化指标的最大值。令正向化后的初始矩阵为
 $$A' = 
 \begin{pmatrix}
