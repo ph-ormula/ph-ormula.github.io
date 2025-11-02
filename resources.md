@@ -12,6 +12,7 @@ title: Resources
 
 - [AoPS wiki](https://artofproblemsolving.com/wiki/)
 - [AoPS mock AMC contests forum](https://artofproblemsolving.com/community/c594864_aops_mock_contests)
+- [Mastering AMC 10/12 book by OmegaLearn](/resources/mastering-amc-10-12-omegalearn.pdf)
 
 ## Video Resources
 
