@@ -46,6 +46,8 @@ permalink: /math-talks/typst-himcm-collab-workflows/
 
 # Suggested Collaboration Workflows for HiMCM
 
+- Use the [Typst HiMCM template](https://github.com/daniel-42-z/typst-himcm-template)
+
 ## Basic: fully online real-time collaboration using [typst.app](https://typst.app)
 
 Copy the file contents/download the entire project as zip and use any AI to debug/add features
