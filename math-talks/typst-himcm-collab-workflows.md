@@ -44,6 +44,31 @@ permalink: /math-talks/typst-himcm-collab-workflows/
 
 - [https://typst.app](https://typst.app)
 
+### Key Syntax
+
+```typst
+= Heading
+
+== Level 2 heading
+
+=== Level 3 heading
+
+...
+
+*bold* _italic_ // Comments
+
+- Bullet points
+
++ Numbered list
++ You don't need to manually number
+
+#align(genter)[
+	#image("path/to/image.png", width: 75%) // svgs are recommended
+]
+
+// Math uses $$ but the grammar is different to and simpler than latex, see official documentation
+```
+
 # Suggested Collaboration Workflows for HiMCM
 
 - Use the [Typst HiMCM template](https://github.com/daniel-42-z/typst-himcm-template)
