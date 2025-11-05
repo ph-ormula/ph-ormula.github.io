@@ -8,7 +8,7 @@ title: Resources
 - [Art Of Problem Solving](https://artofproblemsolving.com/)
 - [libqalculate CLI scientific calculator](https://github.com/Qalculate/libqalculate)
 
-## Competition prep
+## Competition Preparation
 
 - [AoPS wiki](https://artofproblemsolving.com/wiki/)
 - [AoPS mock AMC contests forum](https://artofproblemsolving.com/community/c594864_aops_mock_contests)
