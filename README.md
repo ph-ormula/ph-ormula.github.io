@@ -31,7 +31,7 @@ The site recompiles automatically when you save files and is served at <http://l
    ```
    ---
    layout: page          # keep as “page” so Minima uses the full-width layout
-   title:  "My Topic"    # displayed in browser tab and h1
+   title:  "My Topic"    # displayed in browser tab
    permalink: /my-topic/ # clean URL → http://…/my-topic/
    ---
    ```
