@@ -2,17 +2,20 @@
 # Main theme
 ---
 
-
-@import
-  "minima/skins/{{ site.minima.skin | default: 'auto' }}",
-  "minima/initialize";
+@import "minima/skins/{{ site.minima.skin | default: 'auto' }}";
+@import "minima/initialize";
 
 // Override fonts to use CSS variable for dynamic font switching
 body {
   font-family: var(--current-font), sans-serif !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--current-font), sans-serif !important;
   font-weight: bold !important;
 }
@@ -45,8 +48,9 @@ a {
 }
 
 // Optional: Ensure code blocks still use monospace
-pre, code {
-  font-family: monospace !important;
+pre,
+code {
+  font-family: 'JetBrains Mono', monospace !important;
 }
 
 // Add white background to all SVG elements
@@ -72,6 +76,7 @@ img[src$=".svg"] {
 
 // Override text color for dark theme only
 @media (prefers-color-scheme: dark) {
+
   body,
   .site-title,
   .site-nav .page-link,
@@ -143,7 +148,7 @@ img[src$=".svg"] {
   .wrapper.with-toc {
     display: block;
   }
-  
+
   .page-toc {
     display: none;
   }
