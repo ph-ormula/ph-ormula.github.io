@@ -6,6 +6,7 @@ minima:
     - math-talks.md
     - resources.md
     - phlogicians.md
+    - phcubers.md
 title: PH-ormula
 description: Website for Shanghai Pinghe School Math Club
 url: "https://ph-ormula.github.io"
