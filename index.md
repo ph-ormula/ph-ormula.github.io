@@ -7,7 +7,7 @@ title: Home
 
 Pinghe Math Club.
 
-[2025 AMC 12A Problems and Solutions](https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_12A)
+[More Math](/math-talks/more-math/)
 
 [Download Digital Textbooks](/textbooks-download/)
 

@@ -14,3 +14,4 @@ title: Math Talks
 - [HiMCM: 方案评分的三种建模 (2025-10-27)](/math-talks/himcm-scoring-models/)
 - [Introduction to Typst and Recommended HiMCM Collaboration Workflows (2025-11-03)](/math-talks/typst-himcm-collab-workflows/)
 - [2025 AMC 12A Problems and Solutions (2025-11-17)](https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_12A)
+- [More Math](/math-talks/more-math/)
