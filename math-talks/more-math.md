@@ -12,7 +12,7 @@ toc: true
 
 - $$\forall$$：对于所有，念作 "for all"。
 - $$\exists$$：存在，念作 "there exists"。
-- s.t.：使得，念作 “such that"。
+- $$\text{s.t.}$$：使得，念作 “such that"。
 - $$d(\cdot, \cdot)$$：任意空间下两点距离函数。
 
 
