@@ -6,8 +6,9 @@ permalink: /resources/
 
 # Resources
 
+## General
+
 - [Art Of Problem Solving](https://artofproblemsolving.com/)
-- [libqalculate CLI scientific calculator](https://github.com/Qalculate/libqalculate)
 
 ## Competition Preparation
 
@@ -39,8 +40,8 @@ permalink: /resources/
 - [Hyperbolica (Windows)](https://mega.nz/file/wWcxSCIZ#QeCsUCYvQfUv286zdrDB0sc-BrIbEkvQruQ917l4sDA)
 	- Drone race personal record 01:13.79:
 
-<video width="90%" height="auto" controls>
-	<source src="/images/Drone-race-01-13-79.mp4" type="video/mp4">
-</video>
+		<video width="90%" height="auto" controls>
+			<source src="/images/Drone-race-01-13-79.mp4" type="video/mp4">
+		</video>
 
 Use Crossover to run the games on Mac OS, and use Wine or Bottles on Linux
