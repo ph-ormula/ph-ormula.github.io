@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Math Talks
+permalink: /math-talks/
 ---
 
 # Math Talks
