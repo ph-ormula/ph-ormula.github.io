@@ -1,0 +1,1 @@
+- When writing math equations, surround them with 2 `$`s on both sides instead of 1 to render them correctly
