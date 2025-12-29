@@ -108,7 +108,7 @@ toc: true
 - The problem asks to find the number of distinct orbits in $G$
 - Example:
 	- ![](/images/math-talk/intro-to-group-theory/squares.png){: width="100%"}
-		- Each column is an $s\in S$, each row is a $g\in G$
+	- Each column is an $s\in S$, each row is a $g\in G$
 	- $G$ is group of all rotations of a square ($C_4$), $S$ is all subsets of a square's edges
 
 #### Orbit-stabilizer theorem
