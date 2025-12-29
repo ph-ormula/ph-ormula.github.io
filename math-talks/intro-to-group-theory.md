@@ -7,8 +7,14 @@ toc: true
 
 # Introduction to Group Theory and Important Theorems
 
-## Definition of Group
+## Definition of Group and Uses
 
+- Different calculations have similar features
+	- Regular algebra
+	- Modular arithmetic
+	- Vectors
+	- Rotating a polygon
+	- Can algebra be made more "general" to allow results in one of these to be applied elsewhere?
 - A group is defined by a set $S$, operation $\cdot$, and identity $e\in G$ (optional)
 - Closure: $x\cdot y\in G\ \forall x,y\in G$
 - Associativity: $x\cdot (y\cdot z)=(x\cdot y)\cdot z\ \forall x,y,z\in G$
@@ -51,10 +57,11 @@ toc: true
 		- E.g. $g_1g_3=g_2g_3\iff g_1g_3g_3^{-1}=g_2g_3g_3^{-1}\iff g_1e=g_2e\iff g_1=g_2$
 	- Can't swap terms, but can start evaluating results from anywhere in a large "product"
 		- E.g. $g_1(g_2(g_2^{-1}g_3))=g_1((g_2g_2^{-1})g_3)=g_1(eg_3)=g_1g_3$
-- $\forall g_1,g_2\in G$, either $g_1H=g_2H$ or $g_1H\cap g_2H=\varnothing$
+	- Closure of group elements: $g_1g_2g_3^{-1}g_4g_2^{-1}...$ is still element of $G$
+- No partial overlapping: $\forall g_1,g_2\in G$, either $g_1H=g_2H$ or $g_1H\cap g_2H=\varnothing$
 	- If $g_1H\cap g_2H\neq\varnothing$, then there exists $h_1$, $h_2$ so that $g_1h_1=g_2h_2$. Need to prove that for all $h\in H$ there exists $h'\in H$ so that $g_1h=g_2h'$
 	- $g_1h_1 = g_2h_2 \Rightarrow g_1h_1h_1^{-1}h = g_2h_2h_1^{-1}h \Rightarrow g_1h=g_2h_2h_1^{-1}h \Rightarrow$ the $h'$ we need to find is $h_2h_1^{-1}h$ which is in $H$ by closure and inverse properties
-- $\forall g\in G\ \exists g'\ g\in g'H$: obvious, let $g'=g$
+- Full coverage: $\forall g\in G\ \exists g'\ g\in g'H$: obvious, let $g'=g$
 
 ### Lagrange's Theorem: Order of Subgroup Divides Order of Group
 
@@ -89,24 +96,44 @@ toc: true
 
 - Set $S$, $\forall g\in G,s\in S\ g\cdot s\in S$: group $G$ acts on $S$
 
-### Orbits
+### Orbits (轨道) and Stabilizers (稳定子)
 
 - $$\mathrm{orb}(s)=\{g\cdot s\mid g\in G\}$$
 	- Path of $s$ when moved by all elements of group
+	- $\forall s_1,s_2\in S$, either $\mathrm{orb}(s_1)=\mathrm{orb}(s_2)$ or $\mathrm{orb}(s_1)\cap\mathrm{orb}(s_2)=\varnothing$
+		- Proof similar to cosets: no partial overlapping + full coverage, left as exercise
 - $$\mathrm{stab}(s)=\{g\in G\mid g\cdot s=s\}$$
 	- All $g$ that doesn't change $s$
+	- Stabilizer forms a subgroup (proof left as exercise)
 - The problem asks to find the number of distinct orbits in $G$
-- *Orbit-stabilizer theorem*: $\forall s\in S\ \vert \mathrm{orb}(s)\vert \cdot\vert \mathrm{stab}(s)\vert =\vert G\vert $
 - Example:
 	- ![](/images/math-talk/intro-to-group-theory/squares.png){: width="100%"}
+		- Each column is an $s\in S$, each row is a $g\in G$
 	- $G$ is group of all rotations of a square ($C_4$), $S$ is all subsets of a square's edges
+
+#### Orbit-stabilizer theorem
+
+- $\forall s\in S\ \vert \mathrm{orb}(s)\vert \cdot\vert \mathrm{stab}(s)\vert =\vert G\vert $
+- Define mapping $\phi(g\mathrm{stab}(s))=gs\ \forall s\in S$ (mapping cosets of $\mathrm{stab}(s)$ to elements in $\mathrm{orb}(s)$
+	- Exercise: proof that this mapping is 1-to-1
+	- $\vert \mathrm{orb}(s)\vert  = \text{number of distinct }gs = \text{number of distinct }g\mathrm{stab}(s) = \frac{\vert G\vert }{\vert \mathrm{stab}(s)\vert }$
 
 ### Burnside's Lemma
 
 - Define $$\mathrm{fix}(g)=\{s\in S\mid gs=s\}$$
 - Important proof technique (in and outside group theory): double counting
-- How to count the size of $$A=\{(g\in G, s\in S)\mid sg=s\}$$?
-- $$|A|=\sum_{g\in G}|\mathrm{fix}(g)| = \sum_{s\in S}|\mathrm{stab}(s)|=\sum_{s\in S}\frac{|G|}{|\mathrm{orb}(s)|} = \sum_{O\text{ orbit}}\sum_{s\in O}\frac{|G|}{|O|}=\sum_{O\text{ orbit}}|G| = \text{number of orbits}\cdot |G|$$
+- How to count the size of $$A=\{(g\in G, s\in S)\mid gs=s\}$$?
+
+$$
+	\begin{gather}
+	|A|=\sum_{g\in G}|\mathrm{fix}(g)| = \sum_{s\in S}|\mathrm{stab}(s)|\\
+	=\sum_{s\in S}\frac{|G|}{|\mathrm{orb}(s)|}\\
+	= \sum_{O\text{ orbit}}\sum_{s\in O}\frac{|G|}{|O|}\\
+	=\sum_{O\text{ orbit}}|G|\\
+	= \text{number of orbits}\cdot |G|
+	\end{gather}
+$$
+
 - $\text{number of orbits}=\frac{1}{\vert G\vert }\cdot\sum_{g\in G}\vert \mathrm{fix}(g)\vert $
 
 #### Problem: how many rotationally distinct subsets of the edges of the regular octagon are there?
