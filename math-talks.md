@@ -16,3 +16,4 @@ permalink: /math-talks/
 - [Introduction to Typst and Recommended HiMCM Collaboration Workflows (2025-11-03)](/math-talks/typst-himcm-collab-workflows/)
 - [2025 AMC 12A Problems and Solutions (2025-11-17)](https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_12A)
 - [Introduction to Real Analysis (2025-12-22)](/math-talks/more-math/)
+- [Introduction to Group Theory and Important Theorems (2025-12-29)](/math-talks/intro-to-group-theory/)

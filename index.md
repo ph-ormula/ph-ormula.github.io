@@ -7,7 +7,7 @@ title: Home
 
 Pinghe Math Club.
 
-[More Math](/math-talks/more-math/)
+[Introduction to Group Theory and Important Theorems](/math-talks/intro-to-group-theory/)
 
 [Download Digital Textbooks](/textbooks-download/)
 
