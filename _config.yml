@@ -1,4 +1,8 @@
-theme: minima
+theme: practical-club-website-template
+title: PH-ormula
+description: Website for Shanghai Pinghe School Math Club
+url: "https://ph-ormula.github.io"
+
 minima:
   skin: auto
   nav_pages:
@@ -7,9 +11,15 @@ minima:
     - resources.md
     - phlogicians.md
     - phcubers.md
-title: PH-ormula
-description: Website for Shanghai Pinghe School Math Club
-url: "https://ph-ormula.github.io"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+kramdown:
+  math_engine: mathjax
+  input: GFM
+
 exclude:
   - README.md
   - GEMINI.md
@@ -19,5 +29,3 @@ exclude:
   - .jekyll-metadata
   - .bundle/
   - Gemfile.lock
-kramdown:
-  math_engine: mathjax
