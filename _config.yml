@@ -29,3 +29,6 @@ exclude:
   - .jekyll-metadata
   - .bundle/
   - Gemfile.lock
+
+keep-files:
+  - resources/
