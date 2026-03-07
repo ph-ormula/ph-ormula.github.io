@@ -22,6 +22,16 @@ permalink: /resources-index/
 - [Introduction to Number Theory (Art of Problem Solving)](/resources/Introduction_to_Number_Theory_(Art_of_Problem_Solving).pdf)
 - [Euclidean Geometry in Mathematical Olympiads](/resources/Euclidean_Geometry_in_Mathematical_Olympiads.pdf)
 - [Introduction to Geometry (Art of Problem Solving)](/resources/Introduction_to_Geometry_(Art_of_Problem_Solving).pdf)
+- [Modern Olympiad Number Theory (Aditya Khurmi)](/resources/1_MONT.pdf)
+
+## Other Books
+
+- [Artin (Algebra)](/resources/Artin%20%5BAlgebra%5D.pdf)
+- [Introduction to Combinatorics - Part 1 Enumeration (University of Waterloo)](/resources/MATH-239-Part-I-enumeration.pdf)
+- [Introduction to Combinatorics - Part 2 Graph Theory (University of Waterloo)](/resources/MATH-239-Part-II-graph-theory.pdf)
+- [Introduction to Number Theory - Lecture Notes](/resources/Lecture_Notes.pdf)
+- [An Introduction to the Theory of Numbers (5th edition)](/resources/%5BIvan_Niven%2C_Herbert_S._Zuckerman%2C_Hugh_L._Montgom%28BookFi.org%29.pdf)
+- [Linear Algebra (Hoffman and Kunze)](/resources/hoffman_and_kunze.pdf)
 
 ## Video Resources
 
@@ -44,9 +54,9 @@ permalink: /resources-index/
 
 - [4D Golf (Windows)](https://mega.nz/file/sK0W3AAC#Fzfk_UUOW5uqMSD--fPacgM-ID9cXTfA7rpjFhVAGsA)
 - [Hyperbolica (Windows)](https://mega.nz/file/wWcxSCIZ#QeCsUCYvQfUv286zdrDB0sc-BrIbEkvQruQ917l4sDA)
-	- Drone race personal record 01:13.79:
+  - Drone race personal record 01:13.79:
 
-		<video width="90%" height="auto" controls>
+    <video width="90%" height="auto" controls>
 			<source src="/resources/Drone-race-01-13-79.mp4" type="video/mp4">
 		</video>
 
