@@ -6,3 +6,4 @@ _site/
 containers/
 **/.DS_Store
 /resources/
+/.vscode/

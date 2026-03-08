@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Daniel-42-z/practical-club-website-template.git
-  revision: 29548de9b5f55b6ed4dd304f11d7a2c2aef35d93
+  revision: ab668135ab2618f0f5d370bb3eeebff4a58f9e68
   specs:
     practical-club-website-template (0.1.0)
       jekyll (>= 3.9, < 5.0)
@@ -99,7 +99,7 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    json (2.19.0)
+    json (2.19.1)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
     kramdown-parser-gfm (1.1.0)
