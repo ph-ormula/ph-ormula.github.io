@@ -1,0 +1,40 @@
+{
+  "nodes": {
+    "bundler-pkg": {
+      "flake": false,
+      "locked": {
+        "narHash": "sha256-LlQlsOZPgR/YY8diDi7+Sf6sPvC+ixSISOoD+P+Dtq0=",
+        "type": "file",
+        "url": "https://rubygems.org/downloads/bundler-4.0.8.gem"
+      },
+      "original": {
+        "type": "file",
+        "url": "https://rubygems.org/downloads/bundler-4.0.8.gem"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1773389992,
+        "narHash": "sha256-wvfdLLWJ2I9oEpDd9PfMA8osfIZicoQ5MT1jIwNs9Tk=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "c06b4ae3d6599a672a6210b7021d699c351eebda",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "bundler-pkg": "bundler-pkg",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

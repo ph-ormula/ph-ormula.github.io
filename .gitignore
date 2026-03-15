@@ -7,3 +7,4 @@ containers/
 **/.DS_Store
 /resources/
 /.vscode/
+.gem/
