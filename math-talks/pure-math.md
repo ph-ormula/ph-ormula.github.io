@@ -127,7 +127,7 @@ $x_k=\frac1k$ is Cauchy because for large enough $k,m$, $\vert\frac1k−\frac1m\
 
 **Definition:**
 
-A metric space $(\mathbb{R}^n,d)$ is complete if all Cauchy sequence converges to a point in $\mathbb{R}^n$.
+A metric space $(X,d)$ is complete if all Cauchy sequence converges to a point in $X$.
 
 **Examples:**
 
