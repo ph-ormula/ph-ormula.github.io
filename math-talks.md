@@ -17,3 +17,7 @@ permalink: /math-talks/
 - [2025 AMC 12A Problems and Solutions (2025-11-17)](https://artofproblemsolving.com/wiki/index.php?title=2025_AMC_12A)
 - [Introduction to Real Analysis (2025-12-22)](/math-talks/more-math/)
 - [Introduction to Group Theory and Important Theorems (2025-12-29)](/math-talks/intro-to-group-theory/)
+
+## Spring 2026
+
+- [Pure Math (Sequel)](/math-talks/pure-math/)
