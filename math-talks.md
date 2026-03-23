@@ -20,4 +20,5 @@ permalink: /math-talks/
 
 ## Spring 2026
 
-- [Pure Math (Sequel)](/math-talks/pure-math/)
+- [Pure Math (Sequel) (2026-03-16)](/math-talks/pure-math/)
+- [Fixed Point Theorem (2026-03-23)](/math-talks/fixed-point-theorem/)

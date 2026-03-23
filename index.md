@@ -7,7 +7,7 @@ title: Home
 
 Pinghe Math Club.
 
-[Introduction to Group Theory and Important Theorems](/math-talks/intro-to-group-theory/)
+[Fixed Point Theorem](/math-talks/fixed-point-theorem/)
 
 [Download Digital Textbooks](/textbooks-download/)
 
