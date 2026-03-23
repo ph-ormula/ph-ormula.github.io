@@ -1,6 +1,6 @@
 ---
 layout: redirect
-title: PHCubers (WIP)
+title: PHCubers
 permalink: /phcubers/
 redirect: https://phcubers.github.io
 ---
