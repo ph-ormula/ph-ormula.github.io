@@ -42,7 +42,7 @@ Consider this problem:
 > On the 2D coordinate system with origin $O$, point $A$ lies on $(3, 4)$. The entire coordinate system gets "sheered" horizontally so that point $(0, 1)$ goes to $(1, 1)$. Find where point $A$ ends up.
 
 <video width="100%" height=auto controls>
-	<source src="/images/math-talk/linalg-geometry/sheer.mp4" type="video/mp4">
+	<source src="images/sheer.mp4" type="video/mp4">
 </video>
 
 - Notice that vector $$\begin{pmatrix}3\\4\end{pmatrix}$$ represents $$3\begin{pmatrix}1\\0\end{pmatrix}+4\begin{pmatrix}0\\1\end{pmatrix}$$
@@ -80,12 +80,12 @@ Consider this problem:
 
 > Points $A$ and $B$ are on the first quadrant of the coordinate plane, both with distance 1 to the origin. Point $C$ is at $(1,0)$. $\angle AOC=30^\circ$ and $\angle BOC=45^\circ$. Find $\cos\angle AOB$.
 
-![](/images/math-talk/linalg-geometry/difference-angle.svg){: width="100%"}
+![](images/difference-angle.svg){: width="100%"}
 
 - Shift the coordinate plane so that every point gets projected perpendicularly to the line $AO$ and becomes a 1D vector
 
 <video width="100%" height=auto controls>
-	<source src="/images/math-talk/linalg-geometry/2d-coords-project-to-1d.mp4" type="video/mp4">
+	<source src="images/2d-coords-project-to-1d.mp4" type="video/mp4">
 </video>
 
 - Coordinate "grid" structure still preserved after transforming the 2D space to a 1D one, so $$\vec{OB}=\begin{pmatrix}\cos45^\circ\\\sin45^\circ\end{pmatrix}=\begin{pmatrix}\frac{\sqrt2}{2}\\\frac{\sqrt2}{2}\end{pmatrix}$$ transformed is still equal to $$\frac{\sqrt2}{2}\cdot\text{transformed }\begin{pmatrix}1\\0\end{pmatrix}+\frac{\sqrt2}{2}\cdot\text{transformed }\begin{pmatrix}0\\1\end{pmatrix}$$

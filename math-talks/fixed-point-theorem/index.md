@@ -59,7 +59,7 @@ Let's find the fixed points of a basic quadratic function.
 
 ### Graphical Visualization
 
-![](/images/math-talk/fixed-point-theorem/y-equals-x-squared-fixed-points.png){: width="75%"}
+![](images/y-equals-x-squared-fixed-points.png){: width="75%"}
 
 **Key Insight:** Fixed points occur where the curve $y = x^2$ intersects the line $y = x$ (shown in gold).
 
@@ -88,7 +88,7 @@ If $f$ is **continuous** on $[a, b]$ and $f(a) \cdot f(b) < 0$ then there exists
 
 ### Visual Intuition
 
-![](/images/math-talk/fixed-point-theorem/ivt-visual-intuition.png){: width="75%"}
+![](images/ivt-visual-intuition.png){: width="75%"}
 
 - Continuous curve from negative to positive.
 - Must cross the $x$-axis somewhere.
@@ -176,7 +176,7 @@ Therefore: $f(c) = c$
 
 ### Visual Proof
 
-![](/images/math-talk/fixed-point-theorem/g-c-equals-zero-fixed-point-proof.png){: width="75%"}
+![](images/g-c-equals-zero-fixed-point-proof.png){: width="75%"}
 
 **A FIXED POINT EXISTS!** The point $c$ where $g(c) = 0$ is exactly where $f(c) = c$.
 
@@ -225,7 +225,7 @@ $f(x) = x + 0.5$ for $x < 0.5$ $f(x) = x - 0.5$ for $x \geq 0.5$ This function h
 
 ### Visual Explanation
 
-![](/images/math-talk/fixed-point-theorem/discontinuity-no-fixed-point.png){: width="75%"}
+![](images/discontinuity-no-fixed-point.png){: width="75%"}
 
 - **Continuous function:** must cross $y = x$.
 - **Discontinuous:** can jump over the line.
@@ -257,7 +257,7 @@ Imagine taking a **circular disk**, crumpling it, stretching it, twisting it, an
 
 ### Visual Intuition
 
-![](/images/math-talk/fixed-point-theorem/disk-transformation-visual.png){: width="50%"}
+![](images/disk-transformation-visual.png){: width="50%"}
 
 No matter how you transform the disk, at least one point must stay fixed.
 
@@ -286,7 +286,7 @@ A practical numerical method for solving equations.
 - **How it works:** Start with an initial guess $x_0$, then repeatedly apply $f$. If the sequence converges, it converges to a fixed point!
 - **Visual:** The "staircase" or "cobweb" diagram shows how iteration converges to the fixed point where $y = f(x)$ intersects $y = x$.
 
-![](/images/math-talk/fixed-point-theorem/fixed-point-iteration-staircase-cobweb.jpg){: width="75%"}
+![](images/fixed-point-iteration-staircase-cobweb.jpg){: width="75%"}
 
 This turns equation-solving into simple iteration!
 
@@ -308,7 +308,7 @@ Using iteration to find the fixed point.
 
 ### Convergence Visualization
 
-![](/images/math-talk/fixed-point-theorem/cosine-fixed-point-convergence.png){: width="75%"}
+![](images/cosine-fixed-point-convergence.png){: width="75%"}
 
 **Converges to $x \approx 0.7391$** This is the unique fixed point of $\cos(x)$!
 

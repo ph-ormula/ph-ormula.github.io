@@ -221,7 +221,7 @@ $$
     3. $\ P[M \geq 2] = P[M = 2] + P[M = 3] = \frac{2 \cdot \frac{25}{26} - 1}{2 + 1} + \frac{2 \cdot \frac{25}{26} - 1}{3 + 1} = \frac{\frac{12}{13}}{3} + \frac{\frac{12}{13}}{4} = \frac{4}{13} + \frac{3}{13} = \boxed{\frac{7}{13}}$
     4. $\ P[M > 2] = P[M = 3] = \boxed{\frac{3}{13}}$
     
-    ![image.png](/images/math-talk/probability-discrete-random-variables/0.png){: width="75%"}
+    ![image.png](images/0.png){: width="75%"}
     
     ---
     
@@ -272,7 +272,7 @@ $$
 
 - Graph
 
-![image.png](/images/math-talk/probability-discrete-random-variables/1.png){: width="75%"}
+![image.png](images/1.png){: width="75%"}
 
 ---
 
@@ -305,7 +305,7 @@ $$
 
 - Graph:
 
-![image.png](/images/math-talk/probability-discrete-random-variables/2.png){: width="75%"}
+![image.png](images/2.png){: width="75%"}
 
 ---
 
@@ -328,7 +328,7 @@ $$
 
 - Graph:
 
-![image.png](/images/math-talk/probability-discrete-random-variables/3.png){: width="75%"}
+![image.png](images/3.png){: width="75%"}
 
 ---
 
