@@ -73,13 +73,47 @@ $$\det(A) = \sum_{\tau\in S_n}\mathrm{sgn}(\tau)\cdot\prod_{i=1}^na_{i\tau(i)}$$
 
 ## The geometric view: area/volume/mass
 
+- ![](./images/determinant-and-area.png)
+
 ## The discrete view: counting spanning trees of a graph (Kirchhoff's theorem)
 
 - Intuitive plan: list all subgraphs with 5 edges, delete those with cycles
 
-### Counting directed graphs
+### Counting directed graphs (digraphs)
+
+#### Avoiding undirected cycles
+
+- Undirected cycles: `A -> B -> C`, `A -> D -> C`
+- All undirected cycles have a vertex with $2$ arrows pointing at it
+- Can counting these cycles be avoided by only counting cycles where all vertices have $0$ or $1$ arrows to it?
+
+#### Euler's formula
+
+- $V - E + F = 2$
+- For trees: $F = 1$, so $V = E + 1$
+- $V$ vertices, $V - 1$ arrows
+
+- \*Given a tree and a root vertex, there exists exactly one directed tree, where there is exactly one directed path from the root vertex to any vertex
+- In a directed tree, the root has $0$ arrows to it, and all other vertices have $1$ arrow to it
+- Choose any vertex on the graph, each spanning tree corresponds to exactly one digraph satisfying:
+  - One of the vertices have $0$ arrows pointing at it
+  - All other vertices have exactly $1$ arrow pointing at it
+  - No directed cycles
+
+### Inclusion-exclusion principle
+
+- Count all digraphs with one vertex with $0$ arrows and all other vertices with $1$ arrow
+  - Pick $n-1$ of $n$ vertices, multiply their degrees
+- For each directed cycle, subtract the number of such digraphs with that cycle
+- For each pair of $2$ directed cycles, add back the number of such digraphs with these $2$ cycles
+- For each pair of $3$ directed cycles, subtract the number of such digraphs with these $3$ cycles
+- ...
+- General form: odd number of cycles are subtracted, even number of cycles are added
 
 ### Laplacian matrix
+
+- $a_{xx}$: how many edges are connected to vertex $x$ (or the _degree_ of vertex $x$)
+- $a_{xy}\ (x\neq y)$: whether vertex $x$ is directly connected to vertex $y$. $-1$ if true, $0$ if false
 
 ## Summary: what is the determinant
 
