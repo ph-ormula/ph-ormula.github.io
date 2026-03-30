@@ -22,3 +22,4 @@ permalink: /math-talks/
 
 - [Pure Math (Sequel) (2026-03-16)](/math-talks/pure-math/)
 - [Fixed Point Theorem (2026-03-23)](/math-talks/fixed-point-theorem/)
+- [The Essence of Integration (2026-03-30)](/math-talks/essence-of-integration/)

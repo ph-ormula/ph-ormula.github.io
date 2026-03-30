@@ -9,7 +9,7 @@ Pinghe Math Club.
 
 [**New Club: PHCubers**](https://phcubers.github.io)
 
-[Fixed Point Theorem](/math-talks/fixed-point-theorem/)
+[The Essence of Integration](/math-talks/essence-of-integration/)
 
 [Download Digital Textbooks](/textbooks-download/)
 
