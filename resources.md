@@ -53,7 +53,6 @@ permalink: /resources-index/
 ## Math Games
 
 - [4D Golf (Windows)](https://mega.nz/file/sK0W3AAC#Fzfk_UUOW5uqMSD--fPacgM-ID9cXTfA7rpjFhVAGsA)
-  - [Explanation and Tutorial](/resources-index/4d-golf-tutorial/)
 - [Hyperbolica (Windows)](https://mega.nz/file/wWcxSCIZ#QeCsUCYvQfUv286zdrDB0sc-BrIbEkvQruQ917l4sDA)
   - Drone race personal record 01:13.79:
 
