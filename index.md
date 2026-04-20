@@ -9,8 +9,6 @@ Pinghe Math Club.
 
 [**New Club: PHCubers**](https://phcubers.github.io)
 
-[The Essence of Integration](/math-talks/essence-of-integration/)
-
-[Download Digital Textbooks](/textbooks-download/)
+[Determinants of Matrices: Continuous and Discrete Interpretations](/math-talks/duality-determinants/) [Download Digital Textbooks](/textbooks-download/)
 
 ![](./images/posters/Poster-main.svg){: width="75%"}
