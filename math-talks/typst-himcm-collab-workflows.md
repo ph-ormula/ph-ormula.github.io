@@ -76,12 +76,11 @@ permalink: /math-talks/typst-himcm-collab-workflows/
 
 Copy the file contents/download the entire project as zip and use any AI to debug/add features
 
-## Advanced: Windsurf + git + P2P Live Share
+## Advanced: VSCode-based AI IDE + git + P2P Live Share
 
 - Requires at least 1 member in the team to have git knowledge, optimally all members, [git guide from PHGameStudio website](https://phgamestudio.github.io/resources/git-guide/)
   - All members need to know how to commit, checkout, push, and pull/fetch in git
-- Install [Windsurf](https://windsurf.com/) and install the [tinymist typst](https://open-vsx.org/extension/myriad-dreamin/tinymist) plugin to edit typst with real-time preview
-- You can get unlimited free trials by following the guide on [the PHGameStudio website](https://phgamestudio.github.io/)
+- Install a VSCode-based AI IDE like [Antigravity IDE](https://antigravity.google/) or [Windsurf](https://windsurf.com/) and install the [tinymist typst](https://open-vsx.org/extension/myriad-dreamin/tinymist) plugin to edit typst with real-time preview
 - Use git for large edits made by 1 person
 - Use the [P2P Live Share plugin](https://open-vsx.org/extension/kermanx/p2p-live-share) for meeting edits where multiple people edit the same part simultaneously
 
