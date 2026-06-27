@@ -5,6 +5,8 @@ permalink: /math-talks/essence-of-integration/
 toc: true
 ---
 
+Summarized version. See full PDF [here](/math-talks/essence-of-integration/index.pdf)
+
 # The Essence of Integration
 
 ## Geometric Essence of Integration
