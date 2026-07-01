@@ -8,3 +8,5 @@ containers/
 /resources/
 /.vscode/
 .gem/
+/.envrc
+/.direnv/
