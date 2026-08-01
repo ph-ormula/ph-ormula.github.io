@@ -7,9 +7,7 @@ title: Home
 
 Pinghe Math Club.
 
-[**New Club: PHCubers**](https://phcubers.github.io)
-
-[Determinants of Matrices: Continuous and Discrete Interpretations](/math-talks/duality-determinants/)
+We're having an election for the club core members of 2026, [read the information of candidates](/2026-voting/), the voting webpage will be up soon where you can [make your vote here](https://ph-ormula-voting.xyz)!
 
 [Download Digital Textbooks](/textbooks-download/)
 
