@@ -39,6 +39,14 @@ toc: true
 
 [Math talk - 阶乘的延拓](https://mega.nz/file/XaZj2DJI#DrLuaWxLvex8-WOd_ZQkVkbGujvxthzHLaEY6MZqWqk)
 
+## 10.5 王子牧
+
+![](/2026-cand-forms/10.5-王子牧-1.png)
+
+![](/2026-cand-forms/10.5-王子牧-2.png)
+
+[Math talk - 凸体投影面积最值&随机平均与拉东变换引入](https://mega.nz/file/6eIWwA7S#eMxe-Qd0fyZXF_ckB-b5Msbz54hjhApLK0qhyyQshVg)
+
 ## 10.7 李济昂
 
 ![](/2026-cand-forms/10.7-李济昂.png)
@@ -46,6 +54,10 @@ toc: true
 [Math talk - 大数定理讨论](https://mega.nz/file/iehTGb5b#BNJHcGjXg9qHzJy4vr5wDtUF3XIPg-TsZM0_p4H0Ta4)
 
 ## 10.7 叶子凡
+
+![](/2026-cand-forms/10.7-叶子凡-1.png)
+
+![](/2026-cand-forms/10.7-叶子凡-2.png)
 
 [Math talk - 组合计数与完全齐次对称多项式](https://mega.nz/file/WO41RRCD#3EYG3IsRin90tzFZ2lbplRBhmhtdkAqTOjahBHrIO7w)
 
