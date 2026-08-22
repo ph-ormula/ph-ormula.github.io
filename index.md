@@ -7,7 +7,7 @@ title: Home
 
 Pinghe Math Club.
 
-## We're having an election for the club core members of 2026, [read the information of candidates](/2026-voting/), the voting webpage will be up soon where you can [make your vote here](https://ph-ormula-voting.xyz)!
+The election for the club core members of 2026 just ended, and the final result is still being processed. You can still [read the information of candidates here](/2026-voting/).
 
 [Download Digital Textbooks](/textbooks-download/)
 
