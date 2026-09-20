@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 125" role="img" aria-label="Example 3×5 game of Chomp">
+<style>
+	.bg{fill:none}
+	.node{fill:#ffffff;stroke:#333333;stroke-width:1.6}
+	.lab{fill:#222222;font:16px sans-serif}
+	.edge{fill:none;stroke:#333333;stroke-width:1.6}
+	.head{fill:#333333}
+	.piece{fill:#b0b0b0;stroke:#555555;stroke-width:1.4}
+	.poison{fill:#111111;stroke:#111111;stroke-width:1.4}
+	.eaten{fill:none;stroke:#888888;stroke-width:1.4;stroke-dasharray:3 3}
+	.title{fill:#222222;font:bold 15px sans-serif}
+	@media (prefers-color-scheme: dark){
+		.node{fill:#1e1e1e;stroke:#dddddd}
+		.lab,.title{fill:#eeeeee}
+		.edge{stroke:#dddddd}
+		.head{fill:#dddddd}
+		.piece{fill:#8a8a8a;stroke:#cccccc}
+		.poison{fill:#e05050;stroke:#e05050}
+		.eaten{stroke:#999999}
+	}
+</style>
+<text class="title" x="72" y="22" text-anchor="middle">Initially</text>
+<circle class="poison" cx="20" cy="50" r="9"/>
+<circle class="piece" cx="46" cy="50" r="9"/>
+<circle class="piece" cx="72" cy="50" r="9"/>
+<circle class="piece" cx="98" cy="50" r="9"/>
+<circle class="piece" cx="124" cy="50" r="9"/>
+<circle class="piece" cx="20" cy="78" r="9"/>
+<circle class="piece" cx="46" cy="78" r="9"/>
+<circle class="piece" cx="72" cy="78" r="9"/>
+<circle class="piece" cx="98" cy="78" r="9"/>
+<circle class="piece" cx="124" cy="78" r="9"/>
+<circle class="piece" cx="20" cy="106" r="9"/>
+<circle class="piece" cx="46" cy="106" r="9"/>
+<circle class="piece" cx="72" cy="106" r="9"/>
+<circle class="piece" cx="98" cy="106" r="9"/>
+<circle class="piece" cx="124" cy="106" r="9"/>
+<text class="title" x="227" y="22" text-anchor="middle">Player A</text>
+<circle class="poison" cx="175" cy="50" r="9"/>
+<circle class="piece" cx="201" cy="50" r="9"/>
+<circle class="piece" cx="227" cy="50" r="9"/>
+<circle class="piece" cx="253" cy="50" r="9"/>
+<circle class="piece" cx="279" cy="50" r="9"/>
+<circle class="piece" cx="175" cy="78" r="9"/>
+<circle class="piece" cx="201" cy="78" r="9"/>
+<circle class="piece" cx="227" cy="78" r="9"/>
+<circle class="piece" cx="253" cy="78" r="9"/>
+<circle class="eaten" cx="279" cy="78" r="9"/>
+<circle class="piece" cx="175" cy="106" r="9"/>
+<circle class="piece" cx="201" cy="106" r="9"/>
+<circle class="piece" cx="227" cy="106" r="9"/>
+<circle class="piece" cx="253" cy="106" r="9"/>
+<circle class="eaten" cx="279" cy="106" r="9"/>
+<text class="title" x="382" y="22" text-anchor="middle">Player B</text>
+<circle class="poison" cx="330" cy="50" r="9"/>
+<circle class="piece" cx="356" cy="50" r="9"/>
+<circle class="piece" cx="382" cy="50" r="9"/>
+<circle class="piece" cx="408" cy="50" r="9"/>
+<circle class="piece" cx="434" cy="50" r="9"/>
+<circle class="piece" cx="330" cy="78" r="9"/>
+<circle class="piece" cx="356" cy="78" r="9"/>
+<circle class="piece" cx="382" cy="78" r="9"/>
+<circle class="piece" cx="408" cy="78" r="9"/>
+<circle class="piece" cx="330" cy="106" r="9"/>
+<circle class="eaten" cx="356" cy="106" r="9"/>
+<circle class="eaten" cx="382" cy="106" r="9"/>
+<circle class="eaten" cx="408" cy="106" r="9"/>
+<text class="title" x="537" y="22" text-anchor="middle">Player A</text>
+<circle class="poison" cx="485" cy="50" r="9"/>
+<circle class="eaten" cx="511" cy="50" r="9"/>
+<circle class="eaten" cx="537" cy="50" r="9"/>
+<circle class="eaten" cx="563" cy="50" r="9"/>
+<circle class="eaten" cx="589" cy="50" r="9"/>
+<circle class="piece" cx="485" cy="78" r="9"/>
+<circle class="eaten" cx="511" cy="78" r="9"/>
+<circle class="eaten" cx="537" cy="78" r="9"/>
+<circle class="eaten" cx="563" cy="78" r="9"/>
+<circle class="piece" cx="485" cy="106" r="9"/>
+<text class="title" x="692" y="22" text-anchor="middle">Player B</text>
+<circle class="poison" cx="640" cy="50" r="9"/>
+<circle class="eaten" cx="640" cy="78" r="9"/>
+<circle class="eaten" cx="640" cy="106" r="9"/>
+</svg>

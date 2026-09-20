@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 25 785 130" role="img" aria-label="Directed graph of the subtraction game with S={1,2}">
+<style>
+	.bg{fill:none}
+	.node{fill:#ffffff;stroke:#333333;stroke-width:1.6}
+	.lab{fill:#222222;font:16px sans-serif}
+	.edge{fill:none;stroke:#333333;stroke-width:1.6}
+	.head{fill:#333333}
+	.piece{fill:#b0b0b0;stroke:#555555;stroke-width:1.4}
+	.poison{fill:#111111;stroke:#111111;stroke-width:1.4}
+	.eaten{fill:none;stroke:#888888;stroke-width:1.4;stroke-dasharray:3 3}
+	.title{fill:#222222;font:bold 15px sans-serif}
+	@media (prefers-color-scheme: dark){
+		.node{fill:#1e1e1e;stroke:#dddddd}
+		.lab,.title{fill:#eeeeee}
+		.edge{stroke:#dddddd}
+		.head{fill:#dddddd}
+		.piece{fill:#8a8a8a;stroke:#cccccc}
+		.poison{fill:#e05050;stroke:#e05050}
+		.eaten{stroke:#999999}
+	}
+</style>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="head" d="M0,0 L10,5 L0,10 z"/></marker></defs>
+<line class="edge" x1="90" y1="130" x2="122" y2="130" marker-end="url(#a)"/>
+<line class="edge" x1="185" y1="130" x2="217" y2="130" marker-end="url(#a)"/>
+<line class="edge" x1="280" y1="130" x2="312" y2="130" marker-end="url(#a)"/>
+<line class="edge" x1="375" y1="130" x2="407" y2="130" marker-end="url(#a)"/>
+<line class="edge" x1="470" y1="130" x2="502" y2="130" marker-end="url(#a)"/>
+<line class="edge" x1="565" y1="130" x2="597" y2="130" marker-end="url(#a)"/>
+<line class="edge" x1="660" y1="130" x2="692" y2="130" marker-end="url(#a)"/>
+<path class="edge" d="M66,110 Q155.0,35 246,107" marker-end="url(#a)"/>
+<path class="edge" d="M161,110 Q250.0,35 341,107" marker-end="url(#a)"/>
+<path class="edge" d="M256,110 Q345.0,35 436,107" marker-end="url(#a)"/>
+<path class="edge" d="M351,110 Q440.0,35 531,107" marker-end="url(#a)"/>
+<path class="edge" d="M446,110 Q535.0,35 626,107" marker-end="url(#a)"/>
+<path class="edge" d="M541,110 Q630.0,35 721,107" marker-end="url(#a)"/>
+<ellipse class="node" cx="60" cy="130" rx="30" ry="20"/><text class="lab" x="60" y="136" text-anchor="middle">7</text>
+<ellipse class="node" cx="155" cy="130" rx="30" ry="20"/><text class="lab" x="155" y="136" text-anchor="middle">6</text>
+<ellipse class="node" cx="250" cy="130" rx="30" ry="20"/><text class="lab" x="250" y="136" text-anchor="middle">5</text>
+<ellipse class="node" cx="345" cy="130" rx="30" ry="20"/><text class="lab" x="345" y="136" text-anchor="middle">4</text>
+<ellipse class="node" cx="440" cy="130" rx="30" ry="20"/><text class="lab" x="440" y="136" text-anchor="middle">3</text>
+<ellipse class="node" cx="535" cy="130" rx="30" ry="20"/><text class="lab" x="535" y="136" text-anchor="middle">2</text>
+<ellipse class="node" cx="630" cy="130" rx="30" ry="20"/><text class="lab" x="630" y="136" text-anchor="middle">1</text>
+<ellipse class="node" cx="725" cy="130" rx="30" ry="20"/><text class="lab" x="725" y="136" text-anchor="middle">0</text>
+</svg>
