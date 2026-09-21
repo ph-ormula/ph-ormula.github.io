@@ -14,4 +14,8 @@ The election for the club core members of 2026 just ended, here are the final re
 
 [Download Digital Textbooks](/textbooks-download/)
 
+## Latest Math Talk
+
+[Combinatorial Game Theory (2026-09-21)](/math-talks/combinatorial-game-theory/)
+
 ![](/images/qr-code-2026-first.png){: width="75%"}
